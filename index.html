@@ -87,6 +87,7 @@
       vertical-align: top;
     }
     tr:hover td { background: #f1f5ff; }
+    .thumb { width: 40px; height: 40px; object-fit: contain; border-radius: 4px; background: #f8f9fa; }
     .snow-col { max-width: 180px; }
     .comment-col { max-width: 260px; font-size: .8rem; color: var(--muted); }
     .badge {
@@ -150,6 +151,7 @@
     <table id="waxTable">
       <thead>
         <tr>
+          <th></th>
           <th>Nom</th>
           <th>Marque</th>
           <th>Gamme</th>
@@ -160,13 +162,13 @@
           <th>Neige</th>
           <th>Niveau</th>
           <th>Rôle</th>
-          <th>FIS</th>
           <th>Éco</th>
           <th>Commentaire</th>
         </tr>
       </thead>
       <tbody>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/PSP-18-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="PS Polar" loading="lazy"></td>
         <td><strong>PS Polar</strong></td>
         <td>Swix</td>
         <td>Performance Speed (PS)</td>
@@ -177,11 +179,11 @@
         <td class="snow-col">Artificielle, Grain sec, Compacte glacée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Pour le froid extrême. Peut servir de fart de course seul quand l&#x27;humidité est basse. Très haute durabilité. Remplace CH4X.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/PS05-6-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="PS5 Turquoise" loading="lazy"></td>
         <td><strong>PS5 Turquoise</strong></td>
         <td>Swix</td>
         <td>Performance Speed (PS)</td>
@@ -192,11 +194,11 @@
         <td class="snow-col">Fine fraîche, Artificielle, Transformée, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart dur pour conditions froides, bonnes propriétés de friction sèche. Remplace CH5X.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/PS06-6-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="PS6 Blue" loading="lazy"></td>
         <td><strong>PS6 Blue</strong></td>
         <td>Swix</td>
         <td>Performance Speed (PS)</td>
@@ -207,11 +209,11 @@
         <td class="snow-col">Artificielle, Compacte, Grain sec, Fine fraîche</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Un des farts les plus utilisés en ski de fond. Très polyvalent et durable. Remplace CH6X.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/PS07-6-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="PS7 Violet" loading="lazy"></td>
         <td><strong>PS7 Violet</strong></td>
         <td>Swix</td>
         <td>Performance Speed (PS)</td>
@@ -222,11 +224,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Grain sec, Transformée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Excellent pour les conditions hivernales standard sous le point de congélation. Bon fart de préparation de semelle.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/PS08-6-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="PS8 Red" loading="lazy"></td>
         <td><strong>PS8 Red</strong></td>
         <td>Swix</td>
         <td>Performance Speed (PS)</td>
@@ -237,11 +239,11 @@
         <td class="snow-col">Compacte, Mouillée, Transformée, Neige tombante, Mixte neuve/sale</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Couvre les deux côtés du point de congélation. Facile à fondre, très pratique. Excellent fart de préparation de semelle.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/PS10-6-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="PS10 Yellow" loading="lazy"></td>
         <td><strong>PS10 Yellow</strong></td>
         <td>Swix</td>
         <td>Performance Speed (PS)</td>
@@ -252,11 +254,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de conditions chaudes, facile à appliquer. Idéal pour le ski de printemps.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/HS05-6-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="HS5 Turquoise" loading="lazy"></td>
         <td><strong>HS5 Turquoise</strong></td>
         <td>Swix</td>
         <td>High Speed (HS)</td>
@@ -267,11 +269,11 @@
         <td class="snow-col">Fine fraîche, Artificielle, Transformée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart le plus dur de la gamme HS. Excellente durabilité et friction sèche en conditions froides. Peut servir de base pour des top coats.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/HS06-6-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="HS6 Blue" loading="lazy"></td>
         <td><strong>HS6 Blue</strong></td>
         <td>Swix</td>
         <td>High Speed (HS)</td>
@@ -282,11 +284,11 @@
         <td class="snow-col">Artificielle, Compacte, Grain sec, Fine fraîche</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Très polyvalent. Utilisable comme fart de course seul ou comme base pour d&#x27;autres produits racing.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/HS07-6-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="HS7 Violet" loading="lazy"></td>
         <td><strong>HS7 Violet</strong></td>
         <td>Swix</td>
         <td>High Speed (HS)</td>
@@ -297,11 +299,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Utilisable comme fart de course seul en basse humidité, ou comme base pour top coats.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/HS08-6-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="HS8 Red" loading="lazy"></td>
         <td><strong>HS8 Red</strong></td>
         <td>Swix</td>
         <td>High Speed (HS)</td>
@@ -312,11 +314,11 @@
         <td class="snow-col">Compacte, Mouillée, Transformée, Neige tombante, Mixte neuve/sale</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Populaire pour la préparation de semelle et l&#x27;entraînement. Facile à fondre et à travailler.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/HS10-6-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="HS10 Yellow" loading="lazy"></td>
         <td><strong>HS10 Yellow</strong></td>
         <td>Swix</td>
         <td>High Speed (HS)</td>
@@ -327,11 +329,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Idéal en conditions chaudes de fin de saison. Bon fart de préparation de semelle et d&#x27;entraînement.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/F4-23-180-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="F4 Glidewax (bloc)" loading="lazy"></td>
         <td><strong>F4 Glidewax (bloc)</strong></td>
         <td>Swix</td>
         <td>Universal</td>
@@ -342,11 +344,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Mixte neuve/sale, Compacte, Compacte glacée, Compacte sale, Transformée, Mouillée, Grain sec, Grain humide</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Fart universel toutes températures. Biodégradable. Disponible en 180g et 900g.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/F4-23RO-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="F4 Glidewax Rub-on" loading="lazy"></td>
         <td><strong>F4 Glidewax Rub-on</strong></td>
         <td>Swix</td>
         <td>Universal</td>
@@ -357,11 +359,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Mixte neuve/sale, Compacte, Compacte glacée, Compacte sale, Transformée, Mouillée, Grain sec, Grain humide</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Fart universel rub-on avec liège intégré. Application sans fer. 60g.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/F4-23P-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="F4 Glidewax Paste" loading="lazy"></td>
         <td><strong>F4 Glidewax Paste</strong></td>
         <td>Swix</td>
         <td>Universal</td>
@@ -372,11 +374,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Mixte neuve/sale, Compacte, Compacte glacée, Compacte sale, Transformée, Mouillée, Grain sec, Grain humide</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Application sans fer. Format pâte 75ml pratique pour un fartage rapide.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/U180-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="U60 / U180 Universal Wax" loading="lazy"></td>
         <td><strong>U60 / U180 Universal Wax</strong></td>
         <td>Swix</td>
         <td>Universal</td>
@@ -387,11 +389,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Mixte neuve/sale, Compacte, Compacte glacée, Compacte sale, Transformée, Mouillée, Grain sec, Grain humide</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart hydrocarbone universel. Disponible en 60g, 180g, 900g et 5000g (pellets).</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/BP077-18-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="BP77 Base Prep Hard" loading="lazy"></td>
         <td><strong>BP77 Base Prep Hard</strong></td>
         <td>Swix</td>
         <td>Base Prep</td>
@@ -402,11 +404,11 @@
         <td class="snow-col"></td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Préparation base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de préparation de semelle dur. Saturation et protection. Non destiné à être skié seul. 180g et 900g.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/BP088-180-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="BP88 Base Prep Medium" loading="lazy"></td>
         <td><strong>BP88 Base Prep Medium</strong></td>
         <td>Swix</td>
         <td>Base Prep</td>
@@ -417,11 +419,11 @@
         <td class="snow-col"></td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Préparation base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de préparation de semelle dureté moyenne. 180g et 900g.</td>
       </tr>
       <tr data-brand="Swix">
+        <td><img class="thumb" src="https://brav.imgix.net/BP099-18-V-main01.png?auto=format&amp;fit=max&amp;w=600&amp;q=75" alt="BP99 Base Prep Soft" loading="lazy"></td>
         <td><strong>BP99 Base Prep Soft</strong></td>
         <td>Swix</td>
         <td>Base Prep</td>
@@ -432,11 +434,11 @@
         <td class="snow-col"></td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Préparation base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de préparation de semelle souple. 180g et 900g.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2019/09/base-performance-yellow-120g.jpg" alt="Base Performance Yellow" loading="lazy"></td>
         <td><strong>Base Performance Yellow</strong></td>
         <td>Toko</td>
         <td>Base Performance</td>
@@ -447,11 +449,11 @@
         <td class="snow-col">Mouillée, Grain humide, Neige tombante</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Fart hydrocarbone écologique pour entraînement et entretien des semelles. Biodégradable. Boîtier refermable.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2019/09/base-performance-red.jpg" alt="Base Performance Red" loading="lazy"></td>
         <td><strong>Base Performance Red</strong></td>
         <td>Toko</td>
         <td>Base Performance</td>
@@ -462,11 +464,11 @@
         <td class="snow-col">Compacte, Transformée, Grain sec, Fine fraîche</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Large plage d&#x27;utilisation pour les conditions de température moyenne. Le fart le plus polyvalent de la gamme.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2019/09/base-performance-blue-120g.jpg" alt="Base Performance Blue" loading="lazy"></td>
         <td><strong>Base Performance Blue</strong></td>
         <td>Toko</td>
         <td>Base Performance</td>
@@ -477,11 +479,11 @@
         <td class="snow-col">Artificielle, Compacte glacée, Grain sec</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Fart dur pour conditions froides et neige agressive. Biodégradable.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2019/09/Toko-Base-Performance-Glidewax-120g.jpg" alt="Base Performance Cleaning" loading="lazy"></td>
         <td><strong>Base Performance Cleaning</strong></td>
         <td>Toko</td>
         <td>Base Performance</td>
@@ -492,11 +494,11 @@
         <td class="snow-col"></td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Nettoyant, Préparation base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Fart spécial très souple à bas point de fusion pour le nettoyage de semelle. Idéal pour saturer les semelles neuves ou réaffûtées.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-performance-glide-wax-120g-group.jpg" alt="Performance Yellow" loading="lazy"></td>
         <td><strong>Performance Yellow</strong></td>
         <td>Toko</td>
         <td>Performance</td>
@@ -507,11 +509,11 @@
         <td class="snow-col">Mouillée, Grain humide, Neige tombante</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de performance sans fluor avec technologie Triple X. Pour course et entraînement.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-performance-glide-wax-120g-group.jpg" alt="Performance Red" loading="lazy"></td>
         <td><strong>Performance Red</strong></td>
         <td>Toko</td>
         <td>Performance</td>
@@ -522,11 +524,11 @@
         <td class="snow-col">Compacte, Transformée, Grain sec, Mixte neuve/sale</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de performance mi-dur avec large plage d&#x27;utilisation. Technologie Triple X.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-performance-glide-wax-120g-group.jpg" alt="Performance Blue" loading="lazy"></td>
         <td><strong>Performance Blue</strong></td>
         <td>Toko</td>
         <td>Performance</td>
@@ -537,11 +539,11 @@
         <td class="snow-col">Artificielle, Compacte glacée, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de performance dur pour neige froide et agressive. Technologie Triple X.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-wc-high-perf-group.jpg" alt="WC High Performance Warm (Yellow)" loading="lazy"></td>
         <td><strong>WC High Performance Warm (Yellow)</strong></td>
         <td>Toko</td>
         <td>WC High Performance</td>
@@ -552,11 +554,11 @@
         <td class="snow-col">Mouillée, Grain humide</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de course haut de gamme utilisé en Coupe du Monde. Technologie Triple X sans fluor. Plage de température étroite pour performance maximale.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-wc-high-perf-group.jpg" alt="WC High Performance Universal (Red)" loading="lazy"></td>
         <td><strong>WC High Performance Universal (Red)</strong></td>
         <td>Toko</td>
         <td>WC High Performance</td>
@@ -567,11 +569,11 @@
         <td class="snow-col">Compacte, Transformée, Grain sec, Mixte neuve/sale</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de course haut de gamme mi-dur. Large plage d&#x27;utilisation en conditions moyennes.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-wc-high-perf-group.jpg" alt="WC High Performance Cold (Blue)" loading="lazy"></td>
         <td><strong>WC High Performance Cold (Blue)</strong></td>
         <td>Toko</td>
         <td>WC High Performance</td>
@@ -582,11 +584,11 @@
         <td class="snow-col">Artificielle, Compacte glacée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de course haut de gamme pour conditions froides. Utilisé en Coupe du Monde.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-jet-liquid-group.jpg" alt="Jet Liquid Yellow" loading="lazy"></td>
         <td><strong>Jet Liquid Yellow</strong></td>
         <td>Toko</td>
         <td>Jet Liquid (top finish)</td>
@@ -597,11 +599,11 @@
         <td class="snow-col">Mouillée, Grain humide</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Top finish spray sans fluor. Appliquer en couche généreuse pour neige mouillée saturée.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-jet-liquid-group.jpg" alt="Jet Liquid Red" loading="lazy"></td>
         <td><strong>Jet Liquid Red</strong></td>
         <td>Toko</td>
         <td>Jet Liquid (top finish)</td>
@@ -612,11 +614,11 @@
         <td class="snow-col">Compacte, Transformée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Top finish spray sans fluor. Couche fine polie au feutre pour neige froide.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-jet-liquid-group.jpg" alt="Jet Liquid Blue" loading="lazy"></td>
         <td><strong>Jet Liquid Blue</strong></td>
         <td>Toko</td>
         <td>Jet Liquid (top finish)</td>
@@ -627,11 +629,11 @@
         <td class="snow-col">Artificielle, Compacte glacée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Top finish spray sans fluor pour conditions froides. Résultats compétitifs en Coupe du Monde.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-jet-bloc-group.jpg" alt="Jet Bloc Top Finish Warm" loading="lazy"></td>
         <td><strong>Jet Bloc Top Finish Warm</strong></td>
         <td>Toko</td>
         <td>Jet Bloc (top finish)</td>
@@ -642,11 +644,11 @@
         <td class="snow-col">Mouillée, Grain humide</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Bloc top finish haute performance 20g pour course. Éco-responsable.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-jet-bloc-group.jpg" alt="Jet Bloc Top Finish Mid" loading="lazy"></td>
         <td><strong>Jet Bloc Top Finish Mid</strong></td>
         <td>Toko</td>
         <td>Jet Bloc (top finish)</td>
@@ -657,11 +659,11 @@
         <td class="snow-col">Compacte, Transformée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Bloc top finish haute performance 20g pour températures intermédiaires.</td>
       </tr>
       <tr data-brand="Toko">
+        <td><img class="thumb" src="https://www.crosscountryski.com/wp-content/uploads/2024/08/toko-jet-bloc-group.jpg" alt="Jet Bloc Top Finish Cold" loading="lazy"></td>
         <td><strong>Jet Bloc Top Finish Cold</strong></td>
         <td>Toko</td>
         <td>Jet Bloc (top finish)</td>
@@ -672,11 +674,11 @@
         <td class="snow-col">Artificielle, Compacte glacée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Bloc top finish haute performance 20g pour conditions froides.</td>
       </tr>
       <tr data-brand="Holmenkol">
+        <td><img class="thumb" src="https://cdn.sport-conrad.com/media/catalog/product/h/o/holmenkol-syntec-ff-bar-green-2-x-35-g_24908.jpg" alt="Syntec FF Bar Green" loading="lazy"></td>
         <td><strong>Syntec FF Bar Green</strong></td>
         <td>Holmenkol</td>
         <td>Syntec FF</td>
@@ -687,11 +689,11 @@
         <td class="snow-col">Fine fraîche, Compacte glacée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de course synthétique sans fluor. Conforme FIS. Disponible en 70g et 150g.</td>
       </tr>
       <tr data-brand="Holmenkol">
+        <td><img class="thumb" src="https://cdn.sport-conrad.com/media/catalog/product/h/o/holmenkol-syntec-ff-bar-blue-2-x-35-g_24907.jpg" alt="Syntec FF Bar Blue" loading="lazy"></td>
         <td><strong>Syntec FF Bar Blue</strong></td>
         <td>Holmenkol</td>
         <td>Syntec FF</td>
@@ -702,11 +704,11 @@
         <td class="snow-col">Fine fraîche, Compacte glacée, Artificielle, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de course sans fluor pour conditions froides. Maximum hydrophobie et résistance à l&#x27;abrasion.</td>
       </tr>
       <tr data-brand="Holmenkol">
+        <td><img class="thumb" src="https://cdn.sport-conrad.com/media/catalog/product/h/o/holmenkol-syntec-ff-bar-red-2-x-35-g_24906.jpg" alt="Syntec FF Bar Red" loading="lazy"></td>
         <td><strong>Syntec FF Bar Red</strong></td>
         <td>Holmenkol</td>
         <td>Syntec FF</td>
@@ -717,11 +719,11 @@
         <td class="snow-col">Fine fraîche, Compacte, Transformée, Mouillée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de course sans fluor pour températures moyennes. Neige fine à grossière, humide. Très haute accélération.</td>
       </tr>
       <tr data-brand="Holmenkol">
+        <td><img class="thumb" src="https://cdn.sport-conrad.com/media/catalog/product/h/o/holmenkol-syntec-ff-bar-yellow-2-x-35-g_24905.jpg" alt="Syntec FF Bar Yellow" loading="lazy"></td>
         <td><strong>Syntec FF Bar Yellow</strong></td>
         <td>Holmenkol</td>
         <td>Syntec FF</td>
@@ -732,11 +734,11 @@
         <td class="snow-col">Mouillée, Grain humide, Neige tombante</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de course sans fluor pour conditions chaudes et humides. Maximum glisse et résistance.</td>
       </tr>
       <tr data-brand="Holmenkol">
+        <td><img class="thumb" src="https://cdn.sport-conrad.com/media/catalog/product/h/o/holmenkol-syntec-ff-21-bar-150-g_27908.jpg" alt="Syntec FF 21 (Base Wax)" loading="lazy"></td>
         <td><strong>Syntec FF 21 (Base Wax)</strong></td>
         <td>Holmenkol</td>
         <td>Syntec FF</td>
@@ -747,11 +749,11 @@
         <td class="snow-col">Artificielle, Compacte, Compacte sale, Transformée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de base universel sans fluor pour alpin, nordique et saut. Particulièrement efficace sur neige sale ou artificielle abrasive. 70g et 150g.</td>
       </tr>
       <tr data-brand="Holmenkol">
+        <td><img class="thumb" src="https://cdn.sport-conrad.com/media/catalog/product/h/o/holmenkol-ultramix-blue-liquid-250-ml.jpg" alt="UltraMix Blue (Liquid)" loading="lazy"></td>
         <td><strong>UltraMix Blue (Liquid)</strong></td>
         <td>Holmenkol</td>
         <td>Liquid Wax</td>
@@ -762,11 +764,11 @@
         <td class="snow-col">Artificielle, Transformée, Grain sec, Compacte glacée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Version liquide du légendaire Holmenkol Blue. Un des meilleurs farts non-fluorés au monde. 100ml et 250ml.</td>
       </tr>
       <tr data-brand="Holmenkol">
+        <td><img class="thumb" src="https://cdn.sport-conrad.com/media/catalog/product/h/o/holmenkol-betamix-red-liquid-250-ml.jpg" alt="BetaMix Red (Liquid)" loading="lazy"></td>
         <td><strong>BetaMix Red (Liquid)</strong></td>
         <td>Holmenkol</td>
         <td>Liquid Wax</td>
@@ -777,11 +779,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Artificielle, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Le mix le plus utilisé en Coupe du Monde de Holmenkol. Application facile. 100ml et 250ml.</td>
       </tr>
       <tr data-brand="Holmenkol">
+        <td><img class="thumb" src="https://cdn.sport-conrad.com/media/catalog/product/h/o/holmenkol-alphamix-yellow-liquid-250-ml.jpg" alt="AlphaMix Yellow (Liquid)" loading="lazy"></td>
         <td><strong>AlphaMix Yellow (Liquid)</strong></td>
         <td>Holmenkol</td>
         <td>Liquid Wax</td>
@@ -792,11 +794,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Liquide pour conditions chaudes. Peut aussi servir au nettoyage en profondeur de la semelle.</td>
       </tr>
       <tr data-brand="Holmenkol">
+        <td><img class="thumb" src="https://cdn.sport-conrad.com/media/catalog/product/h/o/holmenkol-betamix-red-150-g.jpg" alt="BetaMix Red (Bloc)" loading="lazy"></td>
         <td><strong>BetaMix Red (Bloc)</strong></td>
         <td>Holmenkol</td>
         <td>BetaMix</td>
@@ -807,11 +809,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Artificielle, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Best-seller Holmenkol. Mix Coupe du Monde, pas besoin de mélanger. Excellente base d&#x27;entraînement. 150g.</td>
       </tr>
       <tr data-brand="Holmenkol">
+        <td><img class="thumb" src="https://cdn.sport-conrad.com/media/catalog/product/h/o/holmenkol-natural-skiwax-150-g.jpg" alt="Natural Skiwax" loading="lazy"></td>
         <td><strong>Natural Skiwax</strong></td>
         <td>Holmenkol</td>
         <td>Natural</td>
@@ -822,11 +824,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Mixte neuve/sale, Compacte, Compacte glacée, Compacte sale, Transformée, Mouillée, Grain sec, Grain humide</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Fart universel écologique pour toutes conditions et températures. 150g.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/NF11_Yellow_40g.png" alt="NF11 Yellow" loading="lazy"></td>
         <td><strong>NF11 Yellow</strong></td>
         <td>Rex</td>
         <td>NF (N-Kinetic Fluor-Free)</td>
@@ -837,11 +839,11 @@
         <td class="snow-col">Fine fraîche, Neige tombante, Transformée, Mouillée, Grain humide</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Le plus souple de la série NF. Relativement dur et sec comparé aux farts traditionnels.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/NF21_Blue_40g.png" alt="NF21 Blue" loading="lazy"></td>
         <td><strong>NF21 Blue</strong></td>
         <td>Rex</td>
         <td>NF (N-Kinetic Fluor-Free)</td>
@@ -852,11 +854,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Grain sec, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Le fart sans fluor le plus glissant jamais produit par Rex. Référence absolue.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/NF21g_Black_40g.png" alt="NF21G Black (New Snow)" loading="lazy"></td>
         <td><strong>NF21G Black (New Snow)</strong></td>
         <td>Rex</td>
         <td>NF (N-Kinetic Fluor-Free)</td>
@@ -867,11 +869,11 @@
         <td class="snow-col">Fine fraîche, Neige tombante, Neige lourde neuve</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Spécial neige fraîche avec dose optimisée de graphite. Dureté entre NF11 et NF21.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/NF31_Green_40g.png" alt="NF31 Green" loading="lazy"></td>
         <td><strong>NF31 Green</strong></td>
         <td>Rex</td>
         <td>NF (N-Kinetic Fluor-Free)</td>
@@ -882,11 +884,11 @@
         <td class="snow-col">Grain sec, Compacte glacée, Artificielle, Compacte</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Dur et durable pour conditions froides. Point de fusion ~140°C.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/NF41_PinkGreen_40g.png" alt="NF41 Pink/Green" loading="lazy"></td>
         <td><strong>NF41 Pink/Green</strong></td>
         <td>Rex</td>
         <td>NF (N-Kinetic Fluor-Free)</td>
@@ -897,11 +899,11 @@
         <td class="snow-col">Grain humide, Artificielle, Compacte glacée, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour, Additif</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Mélange polymère UHW extrêmement dur. Le plus dur du marché. Excellent pour alpin et snowboard.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/G11_Yellow_150ml.png" alt="G11 Yellow Spray" loading="lazy"></td>
         <td><strong>G11 Yellow Spray</strong></td>
         <td>Rex</td>
         <td>G-Series Spray</td>
@@ -912,11 +914,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Version non-fluorée du HF Yellow avec technologies N-Kinetic, Power Polymers et 2-Step Carrier.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/G21_Blue_150ml.png" alt="G21 Blue Spray" loading="lazy"></td>
         <td><strong>G21 Blue Spray</strong></td>
         <td>Rex</td>
         <td>G-Series Spray</td>
@@ -927,11 +929,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Version non-fluorée du HF21 Blue. Jamais un fart sans fluor Rex n&#x27;a été aussi rapide.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/G41_PinkGreen_150ml.png" alt="G41 UHW Pink/Green Spray" loading="lazy"></td>
         <td><strong>G41 UHW Pink/Green Spray</strong></td>
         <td>Rex</td>
         <td>G-Series Spray</td>
@@ -942,11 +944,11 @@
         <td class="snow-col">Artificielle, Transformée, Compacte glacée, Grain humide</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Le fart de glisse le plus dur du marché. Technologie UHW ultra-dur applicable uniquement en forme liquide. ~70 paires de skis par canette.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/Gold_Liquid_150ml.png" alt="Gold Liquid" loading="lazy"></td>
         <td><strong>Gold Liquid</strong></td>
         <td>Rex</td>
         <td>Gold</td>
@@ -957,11 +959,11 @@
         <td class="snow-col">Mouillée, Grain humide, Compacte, Transformée, Fine fraîche</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Coating N-Kinetic3 à très large plage. Durabilité testée &gt;40km. S&#x27;applique par-dessus le fart du jour. Optimal en humide.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/Original_Blue_Liquid_60ml.png" alt="Original Blue (Liquid)" loading="lazy"></td>
         <td><strong>Original Blue (Liquid)</strong></td>
         <td>Rex</td>
         <td>Original Liquid Glider</td>
@@ -972,11 +974,11 @@
         <td class="snow-col">Compacte, Grain sec, Transformée, Fine fraîche</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Le roi des farts de glisse ! Légendaire Rex Blue. Choix imbattable pour base waxing et entraînement. 60ml.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/Original_Purple_Liquid_60ml.png" alt="Original Purple (Liquid)" loading="lazy"></td>
         <td><strong>Original Purple (Liquid)</strong></td>
         <td>Rex</td>
         <td>Original Liquid Glider</td>
@@ -987,11 +989,11 @@
         <td class="snow-col">Mouillée, Neige tombante, Grain humide, Compacte</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart populaire du zéro aux légers gels, surtout sur neige humide. 60ml.</td>
       </tr>
       <tr data-brand="Rex">
+        <td><img class="thumb" src="https://rex.fi/wp-content/uploads/2023/06/Original_Blue_86g.png" alt="Blue (Bloc)" loading="lazy"></td>
         <td><strong>Blue (Bloc)</strong></td>
         <td>Rex</td>
         <td>Original Glide Wax</td>
@@ -1002,11 +1004,11 @@
         <td class="snow-col">Grain sec, Compacte, Transformée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Réputation d&#x27;être le meilleur fart non-fluoré en bloc. Sur neige sèche, surpasse même les farts fluorés. 86g.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-pure-pro-warm-80ml.jpg" alt="Pure Pro Warm (Liquid)" loading="lazy"></td>
         <td><strong>Pure Pro Warm (Liquid)</strong></td>
         <td>Vauhti</td>
         <td>Pure Pro</td>
@@ -1017,11 +1019,11 @@
         <td class="snow-col">Mouillée, Grain humide, Neige tombante</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart liquide haute performance sans fluor. Stéarate de zinc et cire silicone. 80ml.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-pure-pro-cold-80ml.jpg" alt="Pure Pro Cold (Liquid)" loading="lazy"></td>
         <td><strong>Pure Pro Cold (Liquid)</strong></td>
         <td>Vauhti</td>
         <td>Pure Pro</td>
@@ -1032,11 +1034,11 @@
         <td class="snow-col">Fine fraîche, Grain sec, Compacte</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart liquide pour conditions froides. Performance et durabilité excellentes. 80ml.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-pure-pro-ldr-80ml.jpg" alt="Pure Pro LDR (Liquid)" loading="lazy"></td>
         <td><strong>Pure Pro LDR (Liquid)</strong></td>
         <td>Vauhti</td>
         <td>Pure Pro</td>
@@ -1047,11 +1049,11 @@
         <td class="snow-col">Compacte, Transformée, Fine fraîche, Mouillée, Mixte neuve/sale</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart liquide large plage pour conditions variables. Idéal quand les conditions changent sur le parcours. 80ml.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-pure-pro-mid-80ml.jpg" alt="Pure Pro Mid (Liquid)" loading="lazy"></td>
         <td><strong>Pure Pro Mid (Liquid)</strong></td>
         <td>Vauhti</td>
         <td>Pure Pro</td>
@@ -1062,11 +1064,11 @@
         <td class="snow-col">Mouillée, Compacte, Neige tombante</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart liquide pour conditions intermédiaires. 80ml.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-pure-pro-wet-80ml.jpg" alt="Pure Pro Wet (Liquid)" loading="lazy"></td>
         <td><strong>Pure Pro Wet (Liquid)</strong></td>
         <td>Vauhti</td>
         <td>Pure Pro</td>
@@ -1077,11 +1079,11 @@
         <td class="snow-col">Mouillée, Grain humide</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart liquide pour neige très mouillée et conditions de printemps. 80ml.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-race-violet.jpg" alt="Race Violet Liquid Glide" loading="lazy"></td>
         <td><strong>Race Violet Liquid Glide</strong></td>
         <td>Vauhti</td>
         <td>Race Liquid Glide</td>
@@ -1092,11 +1094,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour, Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart liquide de course haute performance. Stéarate de zinc et cire silicone pour excellente durabilité.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-race-red.jpg" alt="Race Red Liquid Glide" loading="lazy"></td>
         <td><strong>Race Red Liquid Glide</strong></td>
         <td>Vauhti</td>
         <td>Race Liquid Glide</td>
@@ -1107,11 +1109,11 @@
         <td class="snow-col">Transformée, Mouillée, Grain humide</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour, Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Meilleur en conditions humides sur neige ancienne transformée.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-race-pink.jpg" alt="Race Pink Liquid Glide" loading="lazy"></td>
         <td><strong>Race Pink Liquid Glide</strong></td>
         <td>Vauhti</td>
         <td>Race Liquid Glide</td>
@@ -1122,11 +1124,11 @@
         <td class="snow-col">Neige tombante, Fine fraîche, Mixte neuve/sale</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour, Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Optimal en neige tombante et neige nouvelle à grains fins autour de 0°C.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-race-green.jpg" alt="Race Green Liquid Glide" loading="lazy"></td>
         <td><strong>Race Green Liquid Glide</strong></td>
         <td>Vauhti</td>
         <td>Race Liquid Glide</td>
@@ -1137,11 +1139,11 @@
         <td class="snow-col">Grain sec, Compacte glacée, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour, Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart liquide de course pour conditions très froides.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-race-blue.jpg" alt="Race Blue Liquid Glide" loading="lazy"></td>
         <td><strong>Race Blue Liquid Glide</strong></td>
         <td>Vauhti</td>
         <td>Race Liquid Glide</td>
@@ -1152,11 +1154,11 @@
         <td class="snow-col">Transformée, Artificielle, Compacte</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour, Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Optimal pour temps froid sur neige ancienne et artificielle.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-one-warm.jpg" alt="ONE Warm" loading="lazy"></td>
         <td><strong>ONE Warm</strong></td>
         <td>Vauhti</td>
         <td>ONE</td>
@@ -1167,11 +1169,11 @@
         <td class="snow-col">Mouillée, Grain humide, Neige tombante</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Gamme loisir et entretien. Utilisable aussi pour préparation de semelle.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-one-cold.jpg" alt="ONE Cold" loading="lazy"></td>
         <td><strong>ONE Cold</strong></td>
         <td>Vauhti</td>
         <td>ONE</td>
@@ -1182,11 +1184,11 @@
         <td class="snow-col">Grain sec, Compacte, Fine fraîche</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Gamme loisir pour skieurs récréatifs et actifs.</td>
       </tr>
       <tr data-brand="Vauhti">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/v/a/vauhti-one-ldr.jpg" alt="ONE LDR" loading="lazy"></td>
         <td><strong>ONE LDR</strong></td>
         <td>Vauhti</td>
         <td>ONE</td>
@@ -1197,11 +1199,11 @@
         <td class="snow-col">Compacte, Transformée, Fine fraîche, Mouillée, Mixte neuve/sale</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart universel large plage pour conditions changeantes.</td>
       </tr>
       <tr data-brand="Start">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/start-sg6-red.jpg" alt="SG6 Red" loading="lazy"></td>
         <td><strong>SG6 Red</strong></td>
         <td>Start</td>
         <td>SG (Start Glider)</td>
@@ -1212,11 +1214,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Mouillée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de base efficace non-fluoré. Utilisable en course quand humidité &lt;55%. 90g.</td>
       </tr>
       <tr data-brand="Start">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/start-sg8-purple.jpg" alt="SG8 Purple" loading="lazy"></td>
         <td><strong>SG8 Purple</strong></td>
         <td>Start</td>
         <td>SG (Start Glider)</td>
@@ -1227,11 +1229,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de base non-fluoré pour conditions hivernales standard. 90g.</td>
       </tr>
       <tr data-brand="Start">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/start-sg9-blue.jpg" alt="SG9 Blue" loading="lazy"></td>
         <td><strong>SG9 Blue</strong></td>
         <td>Start</td>
         <td>SG (Start Glider)</td>
@@ -1242,11 +1244,11 @@
         <td class="snow-col">Grain sec, Compacte glacée, Artificielle</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart de base non-fluoré pour conditions froides. 90g.</td>
       </tr>
       <tr data-brand="Start">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/start-sg10-green.jpg" alt="SG10 Green" loading="lazy"></td>
         <td><strong>SG10 Green</strong></td>
         <td>Start</td>
         <td>SG (Start Glider)</td>
@@ -1257,11 +1259,11 @@
         <td class="snow-col">Grain sec, Compacte glacée, Artificielle</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Le fameux &#x27;Start Green&#x27;. Doit être dans la boîte à fart de tout skieur pour les jours de grand froid. Légende du fartage. 90g.</td>
       </tr>
       <tr data-brand="Start">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/start-rg-red.jpg" alt="RG Red" loading="lazy"></td>
         <td><strong>RG Red</strong></td>
         <td>Start</td>
         <td>RG Racing Glider</td>
@@ -1272,11 +1274,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Nouvelle génération technocéramique sans fluor. Composés céramiques et graphite.</td>
       </tr>
       <tr data-brand="Start">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/start-rg-purple.jpg" alt="RG Purple" loading="lazy"></td>
         <td><strong>RG Purple</strong></td>
         <td>Start</td>
         <td>RG Racing Glider</td>
@@ -1287,11 +1289,11 @@
         <td class="snow-col">Compacte, Transformée, Mouillée, Mixte neuve/sale</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart technocéramique à large plage couvrant le zéro. Additifs de molybdène pour neige transformée.</td>
       </tr>
       <tr data-brand="Start">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/start-rg-blue.jpg" alt="RG Blue" loading="lazy"></td>
         <td><strong>RG Blue</strong></td>
         <td>Start</td>
         <td>RG Racing Glider</td>
@@ -1302,11 +1304,11 @@
         <td class="snow-col">Compacte, Grain sec, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart technocéramique pour conditions froides. Haute durabilité.</td>
       </tr>
       <tr data-brand="Star">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/star-next-warm.jpg" alt="NEXT Warm" loading="lazy"></td>
         <td><strong>NEXT Warm</strong></td>
         <td>Star</td>
         <td>NEXT</td>
@@ -1317,11 +1319,11 @@
         <td class="snow-col">Mouillée, Neige tombante, Compacte</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Fart de haute qualité pour entraînement et loisir, utilisable en compétition avec top layer. Emballage papier éco. 60g et 250g.</td>
       </tr>
       <tr data-brand="Star">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/star-next-medium.jpg" alt="NEXT Medium" loading="lazy"></td>
         <td><strong>NEXT Medium</strong></td>
         <td>Star</td>
         <td>NEXT</td>
@@ -1332,11 +1334,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Formulation optimisée pour application roto laine. Applicable aussi au fer ou en frottant. 20g, 60g, 250g.</td>
       </tr>
       <tr data-brand="Star">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/star-next-cold.jpg" alt="NEXT Cold" loading="lazy"></td>
         <td><strong>NEXT Cold</strong></td>
         <td>Star</td>
         <td>NEXT</td>
@@ -1347,11 +1349,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Version froid de la gamme NEXT. Bonne pénétration et saturation de la semelle.</td>
       </tr>
       <tr data-brand="Star">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/star-nf-warm.jpg" alt="NF Warm (Liquid)" loading="lazy"></td>
         <td><strong>NF Warm (Liquid)</strong></td>
         <td>Star</td>
         <td>NF</td>
@@ -1362,11 +1364,11 @@
         <td class="snow-col">Mouillée, Compacte, Neige tombante</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Liquide sans fluor, séchage 1 minute. Prix plus abordable que la gamme NEXT.</td>
       </tr>
       <tr data-brand="Star">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/star-nf-medium.jpg" alt="NF Medium (Liquid)" loading="lazy"></td>
         <td><strong>NF Medium (Liquid)</strong></td>
         <td>Star</td>
         <td>NF</td>
@@ -1377,11 +1379,11 @@
         <td class="snow-col">Compacte, Transformée, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Liquide sans fluor pour températures intermédiaires. Séchage rapide.</td>
       </tr>
       <tr data-brand="Star">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/star-nf-cold.jpg" alt="NF Cold (Liquid)" loading="lazy"></td>
         <td><strong>NF Cold (Liquid)</strong></td>
         <td>Star</td>
         <td>NF</td>
@@ -1392,11 +1394,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Liquide sans fluor pour conditions froides. Paraffines synthétiques avec additifs lubrifiants.</td>
       </tr>
       <tr data-brand="Star">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/t/star-nf-polar.jpg" alt="NF Polar (Bloc)" loading="lazy"></td>
         <td><strong>NF Polar (Bloc)</strong></td>
         <td>Star</td>
         <td>NF</td>
@@ -1407,11 +1409,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart bloc sans fluor pour conditions extrêmement froides. 60g.</td>
       </tr>
       <tr data-brand="mountainFLOW">
+        <td><img class="thumb" src="https://mountainflow.com/cdn/shop/products/mountainFLOW_HotWax_AllTemp.png?v=1608743221" alt="Hot Wax All-Temp" loading="lazy"></td>
         <td><strong>Hot Wax All-Temp</strong></td>
         <td>mountainFLOW</td>
         <td>Hot Wax</td>
@@ -1422,11 +1424,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Grain sec, Mouillée</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Fart 100% végétal, biodégradable, 0% pétrole. Performance comparable aux farts hydrocarbone conventionnels. 130g.</td>
       </tr>
       <tr data-brand="mountainFLOW">
+        <td><img class="thumb" src="https://mountainflow.com/cdn/shop/products/mountainFLOW_HotWax_Warm4.png?v=1608743221" alt="Hot Wax Warm" loading="lazy"></td>
         <td><strong>Hot Wax Warm</strong></td>
         <td>mountainFLOW</td>
         <td>Hot Wax</td>
@@ -1437,11 +1439,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Fart végétal pour conditions chaudes au-dessus de 30°F. 130g.</td>
       </tr>
       <tr data-brand="mountainFLOW">
+        <td><img class="thumb" src="https://mountainflow.com/cdn/shop/products/mountainFLOW_HotWax_Cool3.png?v=1608743221" alt="Hot Wax Cool" loading="lazy"></td>
         <td><strong>Hot Wax Cool</strong></td>
         <td>mountainFLOW</td>
         <td>Hot Wax</td>
@@ -1452,11 +1454,11 @@
         <td class="snow-col">Compacte, Transformée, Grain sec</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Fart végétal pour conditions fraîches (10 à 25°F). 130g.</td>
       </tr>
       <tr data-brand="mountainFLOW">
+        <td><img class="thumb" src="https://mountainflow.com/cdn/shop/products/mountainFLOW_HotWax_Cold2.png?v=1608743221" alt="Hot Wax Cold" loading="lazy"></td>
         <td><strong>Hot Wax Cold</strong></td>
         <td>mountainFLOW</td>
         <td>Hot Wax</td>
@@ -1467,11 +1469,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Fart végétal pour conditions froides (-5 à 15°F). 130g.</td>
       </tr>
       <tr data-brand="mountainFLOW">
+        <td><img class="thumb" src="https://mountainflow.com/cdn/shop/files/QuickWaxWarm.jpg?v=1741303208" alt="Quick Wax Warm" loading="lazy"></td>
         <td><strong>Quick Wax Warm</strong></td>
         <td>mountainFLOW</td>
         <td>Quick Wax</td>
@@ -1482,11 +1484,11 @@
         <td class="snow-col">Mouillée, Grain humide</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Application rapide sans fer. Format compact de poche avec applicateur.</td>
       </tr>
       <tr data-brand="mountainFLOW">
+        <td><img class="thumb" src="https://mountainflow.com/cdn/shop/files/QuickWaxCool.jpg?v=1741303208" alt="Quick Wax Cool" loading="lazy"></td>
         <td><strong>Quick Wax Cool</strong></td>
         <td>mountainFLOW</td>
         <td>Quick Wax</td>
@@ -1497,11 +1499,11 @@
         <td class="snow-col">Compacte, Grain sec, Transformée</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Rub-on pour conditions fraîches (15 à 30°F). Complément entre les séances de hot wax.</td>
       </tr>
       <tr data-brand="Rode">
+        <td><img class="thumb" src="https://skiwax.ca/cdn/shop/files/rode-r50.jpg" alt="R50 Yellow" loading="lazy"></td>
         <td><strong>R50 Yellow</strong></td>
         <td>Rode</td>
         <td>R-Line Fluor Free</td>
@@ -1512,11 +1514,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart le plus souple de la gamme R. Conditions chaudes et humides. Disponible en 60g, 180g, 900g.</td>
       </tr>
       <tr data-brand="Rode">
+        <td><img class="thumb" src="https://skiwax.ca/cdn/shop/files/rode-r52.jpg" alt="R52 Red" loading="lazy"></td>
         <td><strong>R52 Red</strong></td>
         <td>Rode</td>
         <td>R-Line Fluor Free</td>
@@ -1527,11 +1529,11 @@
         <td class="snow-col">Compacte, Mouillée, Neige tombante, Mixte neuve/sale</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart polyvalent autour du zéro. Base idéale pour les liquides Racing Liquid. 60g, 180g, 900g.</td>
       </tr>
       <tr data-brand="Rode">
+        <td><img class="thumb" src="https://skiwax.ca/cdn/shop/files/rode-r54.jpg" alt="R54 Blue" loading="lazy"></td>
         <td><strong>R54 Blue</strong></td>
         <td>Rode</td>
         <td>R-Line Fluor Free</td>
@@ -1542,11 +1544,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Artificielle, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Conditions hivernales classiques. Incroyablement rapide et consistant selon Boulder Nordic Sport. 60g, 180g, 900g.</td>
       </tr>
       <tr data-brand="Rode">
+        <td><img class="thumb" src="https://skiwax.ca/cdn/shop/files/rode-r56.jpg" alt="R56 Green" loading="lazy"></td>
         <td><strong>R56 Green</strong></td>
         <td>Rode</td>
         <td>R-Line Fluor Free</td>
@@ -1557,11 +1559,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart dur pour conditions froides. Bonne pénétration grâce au point de fusion relativement bas. 60g, 180g, 900g.</td>
       </tr>
       <tr data-brand="Rode">
+        <td><img class="thumb" src="https://skiwax.ca/cdn/shop/files/rode-r100g.jpg" alt="R100G Graphite" loading="lazy"></td>
         <td><strong>R100G Graphite</strong></td>
         <td>Rode</td>
         <td>R-Line Fluor Free</td>
@@ -1572,11 +1574,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée, Compacte sale</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Additif</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Graphite très durable et anti-statique. Excellent en base layer sous liquides ou seul en conditions très froides. 60g, 180g.</td>
       </tr>
       <tr data-brand="Rode">
+        <td><img class="thumb" src="https://cdn11.bigcommerce.com/s-ee09e/images/stencil/500x659/products/2796/8567/3434_2__24461.1771258424.png?c=2" alt="RX22 World Cup" loading="lazy"></td>
         <td><strong>RX22 World Cup</strong></td>
         <td>Rode</td>
         <td>RX World Cup</td>
@@ -1587,11 +1589,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée, Fine fraîche</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Nouveau 2024-25. Gamme WC après 3 ans de R&amp;D. Vitesse et durabilité supérieures à la gamme R. 60g, 180g.</td>
       </tr>
       <tr data-brand="Rode">
+        <td><img class="thumb" src="https://cdn11.bigcommerce.com/s-ee09e/images/stencil/500x659/products/2796/8568/3448_2_1__89230.1771258454.png?c=2" alt="RX32 World Cup" loading="lazy"></td>
         <td><strong>RX32 World Cup</strong></td>
         <td>Rode</td>
         <td>RX World Cup</td>
@@ -1602,11 +1604,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Nouveau 2024-25. Polyvalent en conditions froides à moyennes. Utilisé en Coupe du Monde. 60g, 180g.</td>
       </tr>
       <tr data-brand="Rode">
+        <td><img class="thumb" src="https://cdn11.bigcommerce.com/s-ee09e/images/stencil/500x659/products/2796/8569/3462_2__60483.1771258476.png?c=2" alt="RX42 World Cup" loading="lazy"></td>
         <td><strong>RX42 World Cup</strong></td>
         <td>Rode</td>
         <td>RX World Cup</td>
@@ -1617,11 +1619,11 @@
         <td class="snow-col">Compacte, Mouillée, Neige tombante, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Nouveau 2024-25. Conditions autour du zéro. Excellent sur neige en transformation. 60g, 180g.</td>
       </tr>
       <tr data-brand="Rode">
+        <td><img class="thumb" src="https://skiwax.ca/cdn/shop/files/rode-rlw.jpg" alt="RL Warm (Racing Liquid)" loading="lazy"></td>
         <td><strong>RL Warm (Racing Liquid)</strong></td>
         <td>Rode</td>
         <td>RL Racing Liquid</td>
@@ -1632,11 +1634,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Incroyable polyvalence en conditions chaudes. Bouteille aluminium éco. Éponge incluse. 80ml (20-35 paires).</td>
       </tr>
       <tr data-brand="Rode">
+        <td><img class="thumb" src="https://skiwax.ca/cdn/shop/files/rode-rlm.jpg" alt="RL Med (Racing Liquid)" loading="lazy"></td>
         <td><strong>RL Med (Racing Liquid)</strong></td>
         <td>Rode</td>
         <td>RL Racing Liquid</td>
@@ -1647,11 +1649,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">LE fart liquide de référence. A gagné ~70% des tests glisse chez Boulder Nordic Sport. Monstre de performance. 80ml.</td>
       </tr>
       <tr data-brand="Rode">
+        <td><img class="thumb" src="https://skiwax.ca/cdn/shop/files/rode-rlc.jpg" alt="RL Cold (Racing Liquid)" loading="lazy"></td>
         <td><strong>RL Cold (Racing Liquid)</strong></td>
         <td>Rode</td>
         <td>RL Racing Liquid</td>
@@ -1662,11 +1664,11 @@
         <td class="snow-col">Fine fraîche, Grain sec, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Très performant sur neige froide récente et basse humidité. Bouteille aluminium 80ml.</td>
       </tr>
       <tr data-brand="Gallium">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/g/a/gallium-extrabase-violet.jpg" alt="Extra Base Violet" loading="lazy"></td>
         <td><strong>Extra Base Violet</strong></td>
         <td>Gallium</td>
         <td>Extra Base</td>
@@ -1677,11 +1679,11 @@
         <td class="snow-col">Compacte, Mouillée, Neige tombante, Transformée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Base paraffine haute qualité japonaise. Très populaire au Japon et en Scandinavie. 100g, 500g.</td>
       </tr>
       <tr data-brand="Gallium">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/g/a/gallium-extrabase-blue.jpg" alt="Extra Base Blue" loading="lazy"></td>
         <td><strong>Extra Base Blue</strong></td>
         <td>Gallium</td>
         <td>Extra Base</td>
@@ -1692,11 +1694,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Artificielle, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart japonais de référence en conditions hivernales. 100g, 500g.</td>
       </tr>
       <tr data-brand="Gallium">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/g/a/gallium-extrabase-green.jpg" alt="Extra Base Green" loading="lazy"></td>
         <td><strong>Extra Base Green</strong></td>
         <td>Gallium</td>
         <td>Extra Base</td>
@@ -1707,11 +1709,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart dur pour conditions froides. 100g, 500g.</td>
       </tr>
       <tr data-brand="Gallium">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/g/a/gallium-metallic-ion-block.jpg" alt="Metallic Ion Block" loading="lazy"></td>
         <td><strong>Metallic Ion Block</strong></td>
         <td>Gallium</td>
         <td>Metallic Ion NF</td>
@@ -1722,11 +1724,11 @@
         <td class="snow-col">Compacte, Transformée, Compacte sale, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour, Additif</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Première mondiale : métal ionisé comme additif. Performance comparable aux poudres fluorées. Extrêmement anti-salissure. 50g.</td>
       </tr>
       <tr data-brand="Gallium">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/g/a/gallium-gigaspeed-bn-block.jpg" alt="Giga Speed BN Block NF" loading="lazy"></td>
         <td><strong>Giga Speed BN Block NF</strong></td>
         <td>Gallium</td>
         <td>Giga Speed NF</td>
@@ -1737,11 +1739,11 @@
         <td class="snow-col">Artificielle, Compacte glacée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour, Additif</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Additif BN (nitrure de bore) sans fluor. Faible attraction inter-couches, haute résistance aux cristaux durs. 50g.</td>
       </tr>
       <tr data-brand="Gallium">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/g/a/gallium-d-control.jpg" alt="D-Control Anti Dirt" loading="lazy"></td>
         <td><strong>D-Control Anti Dirt</strong></td>
         <td>Gallium</td>
         <td>D-Control NF</td>
@@ -1752,11 +1754,11 @@
         <td class="snow-col">Compacte sale, Transformée, Mouillée, Grain humide</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Additif, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart anti-salissure pour neige de printemps sale, poussière et sable. Base pour longues distances. 100g.</td>
       </tr>
       <tr data-brand="Gallium">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/g/a/gallium-nf-liquid.jpg" alt="NF Liquid" loading="lazy"></td>
         <td><strong>NF Liquid</strong></td>
         <td>Gallium</td>
         <td>NF Liquid</td>
@@ -1767,11 +1769,11 @@
         <td class="snow-col">Compacte, Mouillée, Transformée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Liquide sans fluor avec huile de silicone. Application facile : appliquer, sécher, partir. Conforme FIS.</td>
       </tr>
       <tr data-brand="Briko-Maplus">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/b/r/briko-maplus-bp1-yellow.jpg" alt="BP1 Yellow" loading="lazy"></td>
         <td><strong>BP1 Yellow</strong></td>
         <td>Briko-Maplus</td>
         <td>BP1 Base Paraffin</td>
@@ -1782,11 +1784,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Paraffine haute fusion Briko-Maplus. Fournisseur officiel US Ski Team. Durabilité supérieure. 100g, 250g.</td>
       </tr>
       <tr data-brand="Briko-Maplus">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/b/r/briko-maplus-bp1-red.jpg" alt="BP1 Red" loading="lazy"></td>
         <td><strong>BP1 Red</strong></td>
         <td>Briko-Maplus</td>
         <td>BP1 Base Paraffin</td>
@@ -1797,11 +1799,11 @@
         <td class="snow-col">Compacte, Transformée, Fine fraîche</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Neige en transformation, basse humidité. Prof. Gambaretto de l&#x27;Université de Padoue (inventeur CERA F). 100g, 250g.</td>
       </tr>
       <tr data-brand="Briko-Maplus">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/b/r/briko-maplus-bp1-violet.jpg" alt="BP1 Violet" loading="lazy"></td>
         <td><strong>BP1 Violet</strong></td>
         <td>Briko-Maplus</td>
         <td>BP1 Base Paraffin</td>
@@ -1812,11 +1814,11 @@
         <td class="snow-col">Compacte, Grain sec, Fine fraîche</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Conditions froides. Record du monde de ski de vitesse détenu par Briko-Maplus. 100g, 250g.</td>
       </tr>
       <tr data-brand="Briko-Maplus">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/b/r/briko-maplus-bp1-blue.jpg" alt="BP1 Blue" loading="lazy"></td>
         <td><strong>BP1 Blue</strong></td>
         <td>Briko-Maplus</td>
         <td>BP1 Base Paraffin</td>
@@ -1827,11 +1829,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart très dur pour grand froid. Haute durabilité typique Briko-Maplus. 100g, 250g.</td>
       </tr>
       <tr data-brand="Briko-Maplus">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/b/r/briko-maplus-racebase-medium.jpg" alt="Race Base Medium" loading="lazy"></td>
         <td><strong>Race Base Medium</strong></td>
         <td>Briko-Maplus</td>
         <td>Race Base</td>
@@ -1842,11 +1844,11 @@
         <td class="snow-col">Compacte, Transformée, Fine fraîche, Artificielle, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Base, Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Légendaire fart universel durable. Favori des wax techs comme fart de base ou fart unique. 250g.</td>
       </tr>
       <tr data-brand="Optiwax">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/o/p/optiwax-hydrox-warm.jpg" alt="HydrOX Race Glider Warm" loading="lazy"></td>
         <td><strong>HydrOX Race Glider Warm</strong></td>
         <td>Optiwax</td>
         <td>HydrOX Race</td>
@@ -1857,11 +1859,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Technologie HydrOX augmentant l&#x27;hydrophobie. Matières premières de 10+ pays. 60g.</td>
       </tr>
       <tr data-brand="Optiwax">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/o/p/optiwax-hydrox-mid.jpg" alt="HydrOX Race Glider Mid" loading="lazy"></td>
         <td><strong>HydrOX Race Glider Mid</strong></td>
         <td>Optiwax</td>
         <td>HydrOX Race</td>
@@ -1872,11 +1874,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Mixte neuve/sale</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Meilleur en neige nouvelle. En neige ancienne, fonctionne plus chaud que la plage indiquée. 60g.</td>
       </tr>
       <tr data-brand="Optiwax">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/o/p/optiwax-hydrox-cold.jpg" alt="HydrOX Race Glider Cold" loading="lazy"></td>
         <td><strong>HydrOX Race Glider Cold</strong></td>
         <td>Optiwax</td>
         <td>HydrOX Race</td>
@@ -1887,11 +1889,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Neige froide et agressive. Bénéfice HydrOX surtout quand l&#x27;humidité est haute malgré le froid. 60g.</td>
       </tr>
       <tr data-brand="Optiwax">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/o/p/optiwax-glide-tape-eco.jpg" alt="Glide Tape Eco" loading="lazy"></td>
         <td><strong>Glide Tape Eco</strong></td>
         <td>Optiwax</td>
         <td>Glide Tape</td>
@@ -1902,11 +1904,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Mixte neuve/sale, Compacte, Compacte glacée, Compacte sale, Transformée, Mouillée, Grain sec, Grain humide</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Innovation unique : ruban adhésif de glisse. Application en 30 secondes sans fer. Papier et boîte recyclés. Biodégradable. 60mm x 10m.</td>
       </tr>
       <tr data-brand="Purl">
+        <td><img class="thumb" src="https://purlwax.com/cdn/shop/files/purl-purple-all-temp.jpg" alt="Purple All-Temp" loading="lazy"></td>
         <td><strong>Purple All-Temp</strong></td>
         <td>Purl</td>
         <td>Original</td>
@@ -1917,11 +1919,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Mouillée, Grain sec</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Best-seller Purl. Fart universel biodégradable coulé à la main au Colorado. 1% for the Planet. 68g et 1lb.</td>
       </tr>
       <tr data-brand="Purl">
+        <td><img class="thumb" src="https://purlwax.com/cdn/shop/files/purl-blue-cold.jpg" alt="Blue Cold" loading="lazy"></td>
         <td><strong>Blue Cold</strong></td>
         <td>Purl</td>
         <td>Original</td>
@@ -1932,11 +1934,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Pour poudreuse froide. Mélanger avec le Purple pour conditions intermédiaires. 68g et 1lb.</td>
       </tr>
       <tr data-brand="Purl">
+        <td><img class="thumb" src="https://purlwax.com/cdn/shop/files/purl-yellow-warm.jpg" alt="Yellow Warm" loading="lazy"></td>
         <td><strong>Yellow Warm</strong></td>
         <td>Purl</td>
         <td>Original</td>
@@ -1947,11 +1949,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Neige de printemps. Mélanger avec All-Temp entre -4°C et -1°C. Ajouter Graphite si &gt;28°F. 68g et 1lb.</td>
       </tr>
       <tr data-brand="Purl">
+        <td><img class="thumb" src="https://purlwax.com/cdn/shop/files/purl-green-subzero.jpg" alt="Green Sub-Zero" loading="lazy"></td>
         <td><strong>Green Sub-Zero</strong></td>
         <td>Purl</td>
         <td>Original</td>
@@ -1962,11 +1964,11 @@
         <td class="snow-col">Grain sec, Compacte glacée</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Grand froid extrême. Ajouter le Black Graphite par-dessus pour conditions très sèches. 68g et 1lb.</td>
       </tr>
       <tr data-brand="Purl">
+        <td><img class="thumb" src="https://purlwax.com/cdn/shop/files/purl-black-graphite.jpg" alt="Black Graphite" loading="lazy"></td>
         <td><strong>Black Graphite</strong></td>
         <td>Purl</td>
         <td>Original</td>
@@ -1977,11 +1979,11 @@
         <td class="snow-col">Grain sec, Compacte glacée, Compacte sale</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Additif</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Additif graphite rub-on anti-statique. Frotter par-dessus le Green Sub-Zero pour friction sèche optimale.</td>
       </tr>
       <tr data-brand="Purl">
+        <td><img class="thumb" src="https://purlwax.com/cdn/shop/files/purl-pro-race.jpg" alt="PRO Race Bar" loading="lazy"></td>
         <td><strong>PRO Race Bar</strong></td>
         <td>Purl</td>
         <td>PRO</td>
@@ -1992,11 +1994,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Mouillée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Gamme compétition Purl. Hydrocarbone avancé sans fluor. 68g.</td>
       </tr>
       <tr data-brand="Hertel">
+        <td><img class="thumb" src="https://www.hertelskiwax.com/cdn/shop/products/super-hotsauce-340g.jpg" alt="Super HotSauce" loading="lazy"></td>
         <td><strong>Super HotSauce</strong></td>
         <td>Hertel</td>
         <td>Super HotSauce</td>
@@ -2007,11 +2009,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Mixte neuve/sale, Compacte, Compacte glacée, Compacte sale, Transformée, Mouillée, Grain sec, Grain humide</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Le premier vrai fart &#x27;toutes températures&#x27; au monde (1973). Technologie surfactant brevetée réduisant la tension de surface de l&#x27;eau de 75 à 25 dynes. Biodégradable. 28g, 170g, 340g.</td>
       </tr>
       <tr data-brand="Hertel">
+        <td><img class="thumb" src="https://www.hertelskiwax.com/cdn/shop/products/racing-739.jpg" alt="Racing 739" loading="lazy"></td>
         <td><strong>Racing 739</strong></td>
         <td>Hertel</td>
         <td>Racing</td>
@@ -2022,11 +2024,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Mixte neuve/sale, Compacte, Compacte glacée, Compacte sale, Transformée, Mouillée, Grain sec, Grain humide</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Plus rapide que HotSauce. Formule 158 Flex qui s&#x27;adapte au flex du ski. Durée jusqu&#x27;à 7 jours. All-temp.</td>
       </tr>
       <tr data-brand="Hertel">
+        <td><img class="thumb" src="https://www.hertelskiwax.com/cdn/shop/products/spring-solution.jpg" alt="SpringSolution" loading="lazy"></td>
         <td><strong>SpringSolution</strong></td>
         <td>Hertel</td>
         <td>SpringSolution</td>
@@ -2037,11 +2039,11 @@
         <td class="snow-col">Mouillée, Grain humide, Compacte sale, Transformée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Spécial neige de printemps sale et mouillée. Plage de température allant jusqu&#x27;à +20°C. Formule 158 Flex.</td>
       </tr>
       <tr data-brand="Hertel">
+        <td><img class="thumb" src="https://www.hertelskiwax.com/cdn/shop/products/rub-n-go.jpg" alt="Rub-N-Go" loading="lazy"></td>
         <td><strong>Rub-N-Go</strong></td>
         <td>Hertel</td>
         <td>Super HotSauce</td>
@@ -2052,11 +2054,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Mixte neuve/sale, Compacte, Compacte glacée, Compacte sale, Transformée, Mouillée, Grain sec, Grain humide</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Version rub-on de poche du Super HotSauce. All-temp sans fer. 70g.</td>
       </tr>
       <tr data-brand="Dominator">
+        <td><img class="thumb" src="https://dominatorwax.com/cdn/shop/products/dominator-zoom.jpg" alt="Zoom" loading="lazy"></td>
         <td><strong>Zoom</strong></td>
         <td>Dominator</td>
         <td>Zoom</td>
@@ -2067,11 +2069,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Compacte, Compacte glacée, Transformée, Mouillée, Grain sec</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">L&#x27;original all-temperature Dominator. Ingrédients thermoactifs élargissant la plage. Durée 3-5 jours. Fer à 120°F = application facile. 100g.</td>
       </tr>
       <tr data-brand="Dominator">
+        <td><img class="thumb" src="https://dominatorwax.com/cdn/shop/products/dominator-graphite-zoom.jpg" alt="Graphite Zoom" loading="lazy"></td>
         <td><strong>Graphite Zoom</strong></td>
         <td>Dominator</td>
         <td>Zoom</td>
@@ -2082,11 +2084,11 @@
         <td class="snow-col">Artificielle, Grain sec, Compacte glacée, Compacte sale</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel, Additif</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Zoom + graphite anti-statique. Performance améliorée sur bases noires et neige abrasive. 100g.</td>
       </tr>
       <tr data-brand="Dominator">
+        <td><img class="thumb" src="https://dominatorwax.com/cdn/shop/products/dominator-ffc2.jpg" alt="FFC 2 (Fluor Free Competition)" loading="lazy"></td>
         <td><strong>FFC 2 (Fluor Free Competition)</strong></td>
         <td>Dominator</td>
         <td>FFC</td>
@@ -2097,11 +2099,11 @@
         <td class="snow-col">Compacte, Transformée, Mouillée, Neige tombante</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Gamme compétition sans fluor. Technologie nano pour hydrophobie. Utilisé par équipes NCAA. Bloc ou pâte. 100g.</td>
       </tr>
       <tr data-brand="Dominator">
+        <td><img class="thumb" src="https://dominatorwax.com/cdn/shop/products/dominator-ffc2c.jpg" alt="FFC 2C Cold" loading="lazy"></td>
         <td><strong>FFC 2C Cold</strong></td>
         <td>Dominator</td>
         <td>FFC</td>
@@ -2112,11 +2114,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée, Fine fraîche</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">FFC pour conditions froides. Biodégradable. Très difficile de rater le fartage selon les tech WC. 100g.</td>
       </tr>
       <tr data-brand="Dominator">
+        <td><img class="thumb" src="https://dominatorwax.com/cdn/shop/products/dominator-ffc-p2.jpg" alt="FFC P2 Paste" loading="lazy"></td>
         <td><strong>FFC P2 Paste</strong></td>
         <td>Dominator</td>
         <td>FFC</td>
@@ -2127,11 +2129,11 @@
         <td class="snow-col">Compacte, Transformée, Mouillée, Neige tombante</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Version pâte de FFC 2. Application sans fer : appliquer, sécher 30min, brosser. Très rapide selon les avis. 100g.</td>
       </tr>
       <tr data-brand="Fast Wax">
+        <td><img class="thumb" src="https://skifastwax.com/cdn/shop/products/hs0.jpg" alt="HS 0 White (Extreme Cold)" loading="lazy"></td>
         <td><strong>HS 0 White (Extreme Cold)</strong></td>
         <td>Fast Wax</td>
         <td>High Speed</td>
@@ -2142,11 +2144,11 @@
         <td class="snow-col">Grain sec, Compacte glacée, Artificielle</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Gold standard froid extrême. Mélange de 5 paraffines. Aussi utilisé sous les fixations contre le base burn. 80g, 500g.</td>
       </tr>
       <tr data-brand="Fast Wax">
+        <td><img class="thumb" src="https://skifastwax.com/cdn/shop/products/hs10.jpg" alt="HS 10 Teal (Cold)" loading="lazy"></td>
         <td><strong>HS 10 Teal (Cold)</strong></td>
         <td>Fast Wax</td>
         <td>High Speed</td>
@@ -2157,11 +2159,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée, Fine fraîche</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart froid large plage. Le nombre dans le nom = point médian °F, ±10 = plage. 80g, 500g.</td>
       </tr>
       <tr data-brand="Fast Wax">
+        <td><img class="thumb" src="https://skifastwax.com/cdn/shop/products/hs20.jpg" alt="HS 20 Blue (Mid)" loading="lazy"></td>
         <td><strong>HS 20 Blue (Mid)</strong></td>
         <td>Fast Wax</td>
         <td>High Speed</td>
@@ -2172,11 +2174,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Best-seller mondial Fast Wax. Polyvalence, vitesse et durabilité. Préféré des Master Skiers. 80g, 500g.</td>
       </tr>
       <tr data-brand="Fast Wax">
+        <td><img class="thumb" src="https://skifastwax.com/cdn/shop/products/hs30.jpg" alt="HS 30 Red (Warm)" loading="lazy"></td>
         <td><strong>HS 30 Red (Warm)</strong></td>
         <td>Fast Wax</td>
         <td>High Speed</td>
@@ -2187,11 +2189,11 @@
         <td class="snow-col">Compacte, Transformée, Mouillée, Neige tombante</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Conditions autour du zéro. Mélange de paraffines sélectionnées. Marque #1 de fart nordique fabriqué aux USA. 80g, 500g.</td>
       </tr>
       <tr data-brand="Fast Wax">
+        <td><img class="thumb" src="https://skifastwax.com/cdn/shop/products/hs40.jpg" alt="HS 40 Yellow (Spring)" loading="lazy"></td>
         <td><strong>HS 40 Yellow (Spring)</strong></td>
         <td>Fast Wax</td>
         <td>High Speed</td>
@@ -2202,11 +2204,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée, Compacte sale</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Neige de printemps et mouillée. Fondée en 1994 dans le Minnesota. 80g, 500g.</td>
       </tr>
       <tr data-brand="Fast Wax">
+        <td><img class="thumb" src="https://skifastwax.com/cdn/shop/products/hsx20.jpg" alt="HSX 20 Blue Paste" loading="lazy"></td>
         <td><strong>HSX 20 Blue Paste</strong></td>
         <td>Fast Wax</td>
         <td>HSX Paste</td>
@@ -2217,11 +2219,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Grain sec</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Pâte avec additif vert éco. Application facile sans fer. Résultats comparables à HC3/HC4 selon les utilisateurs.</td>
       </tr>
       <tr data-brand="Fast Wax">
+        <td><img class="thumb" src="https://skifastwax.com/cdn/shop/products/thunderbolt10.jpg" alt="Thunderbolt 10" loading="lazy"></td>
         <td><strong>Thunderbolt 10</strong></td>
         <td>Fast Wax</td>
         <td>Thunderbolt</td>
@@ -2232,11 +2234,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Artificielle, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Gamme course éco-responsable. Vitesse fulgurante et durabilité longue. Additif écologique.</td>
       </tr>
       <tr data-brand="DataWax">
+        <td><img class="thumb" src="https://www.datawax.com/ski-snowboard/image/cache/catalog/products/universal-all-mountain-500x500.jpg" alt="Universal All Mountain" loading="lazy"></td>
         <td><strong>Universal All Mountain</strong></td>
         <td>DataWax</td>
         <td>All Mountain</td>
@@ -2247,11 +2249,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Compacte, Compacte glacée, Transformée, Mouillée, Grain sec</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Best-seller DataWax. Additifs spéciaux pour longévité. Fabriqué au Royaume-Uni. Sans fluor. 110g, 1kg.</td>
       </tr>
       <tr data-brand="DataWax">
+        <td><img class="thumb" src="https://www.datawax.com/ski-snowboard/image/cache/catalog/products/magma-all-mountain-500x500.jpg" alt="Magma All Mountain (Fresh Snow)" loading="lazy"></td>
         <td><strong>Magma All Mountain (Fresh Snow)</strong></td>
         <td>DataWax</td>
         <td>All Mountain</td>
@@ -2262,11 +2264,11 @@
         <td class="snow-col">Neige tombante, Fine fraîche, Neige lourde neuve, Mouillée</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Spécial neige fraîche mi/fin de saison. Application rub-on ou fer. Réduit la fatigue. 110g.</td>
       </tr>
       <tr data-brand="DataWax">
+        <td><img class="thumb" src="https://www.datawax.com/ski-snowboard/image/cache/catalog/products/butane-all-mountain-500x500.jpg" alt="Butane All Mountain (Cold Snow)" loading="lazy"></td>
         <td><strong>Butane All Mountain (Cold Snow)</strong></td>
         <td>DataWax</td>
         <td>All Mountain</td>
@@ -2277,11 +2279,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée, Compacte</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Neige froide et dure. Facilite les virages sur hardpack et glace. 110g.</td>
       </tr>
       <tr data-brand="DataWax">
+        <td><img class="thumb" src="https://www.datawax.com/ski-snowboard/image/cache/catalog/products/cobalt-all-mountain-500x500.jpg" alt="Cobalt All Mountain (Very Cold)" loading="lazy"></td>
         <td><strong>Cobalt All Mountain (Very Cold)</strong></td>
         <td>DataWax</td>
         <td>All Mountain</td>
@@ -2292,11 +2294,11 @@
         <td class="snow-col">Grain sec, Compacte glacée, Artificielle</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Froid extrême. Résiste aux cristaux de neige abrasifs. Made in UK. 110g.</td>
       </tr>
       <tr data-brand="DataWax">
+        <td><img class="thumb" src="https://www.datawax.com/ski-snowboard/image/cache/catalog/products/sunfire-race-500x500.jpg" alt="Sunfire Race" loading="lazy"></td>
         <td><strong>Sunfire Race</strong></td>
         <td>DataWax</td>
         <td>Race</td>
@@ -2307,11 +2309,11 @@
         <td class="snow-col">Transformée, Mouillée, Neige tombante, Compacte</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Gamme course DataWax. Sans fluor. Conditions moyennes à chaudes. 110g.</td>
       </tr>
       <tr data-brand="DataWax">
+        <td><img class="thumb" src="https://www.datawax.com/ski-snowboard/image/cache/catalog/products/magma-race-500x500.jpg" alt="Magma Race" loading="lazy"></td>
         <td><strong>Magma Race</strong></td>
         <td>DataWax</td>
         <td>Race</td>
@@ -2322,11 +2324,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Artificielle, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Race wax froid à moyen. Haute performance sans fluor. 110g.</td>
       </tr>
       <tr data-brand="DataWax">
+        <td><img class="thumb" src="https://www.datawax.com/ski-snowboard/image/cache/catalog/products/arctic-indoor-race-500x500.jpg" alt="Arctic Indoor Race Graphite" loading="lazy"></td>
         <td><strong>Arctic Indoor Race Graphite</strong></td>
         <td>DataWax</td>
         <td>Arctic Indoor</td>
@@ -2337,11 +2339,11 @@
         <td class="snow-col">Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour, Additif</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Spécial dômes à neige indoor. Graphite anti-statique contre neige artificielle abrasive. Niche unique. 110g.</td>
       </tr>
       <tr data-brand="ZUMWax">
+        <td><img class="thumb" src="https://zumwax.com/cdn/shop/products/zumwax-universal.jpg" alt="Universal All Temps" loading="lazy"></td>
         <td><strong>Universal All Temps</strong></td>
         <td>ZUMWax</td>
         <td>Iron-On</td>
@@ -2352,11 +2354,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Compacte, Compacte glacée, Transformée, Mouillée, Grain sec</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">100% hydrocarbone. Parfum vanille signature. Coulé à la main à Seattle. PFAS-free. 140g, 250g.</td>
       </tr>
       <tr data-brand="ZUMWax">
+        <td><img class="thumb" src="https://zumwax.com/cdn/shop/products/zumwax-warm.jpg" alt="Warm Temps" loading="lazy"></td>
         <td><strong>Warm Temps</strong></td>
         <td>ZUMWax</td>
         <td>Iron-On</td>
@@ -2367,11 +2369,11 @@
         <td class="snow-col">Mouillée, Transformée, Compacte, Neige tombante</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Températures neige 0°C à -6°C. Paraffine haute performance sans PTFE. Parfum vanille. 140g, 250g.</td>
       </tr>
       <tr data-brand="ZUMWax">
+        <td><img class="thumb" src="https://zumwax.com/cdn/shop/products/zumwax-chill.jpg" alt="Chill Temps" loading="lazy"></td>
         <td><strong>Chill Temps</strong></td>
         <td>ZUMWax</td>
         <td>Iron-On</td>
@@ -2382,11 +2384,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Grain sec, Artificielle</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Conditions fraîches intermédiaires. Fondée par des skieurs/surfers en 2013. 140g, 250g.</td>
       </tr>
       <tr data-brand="ZUMWax">
+        <td><img class="thumb" src="https://zumwax.com/cdn/shop/products/zumwax-cold.jpg" alt="Cold Temps" loading="lazy"></td>
         <td><strong>Cold Temps</strong></td>
         <td>ZUMWax</td>
         <td>Iron-On</td>
@@ -2397,11 +2399,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Grand froid. Base acceptable pour farts haute vitesse. 140g, 250g.</td>
       </tr>
       <tr data-brand="ZUMWax">
+        <td><img class="thumb" src="https://zumwax.com/cdn/shop/products/zumwax-rub-on-universal.jpg" alt="Rub-On Universal" loading="lazy"></td>
         <td><strong>Rub-On Universal</strong></td>
         <td>ZUMWax</td>
         <td>Rub-On</td>
@@ -2412,11 +2414,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Compacte, Compacte glacée, Transformée, Mouillée, Grain sec</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Rub-on avec applicateur liège intégré. Sans fer. Parfum vanille secret. 70g.</td>
       </tr>
       <tr data-brand="ZUMWax">
+        <td><img class="thumb" src="https://zumwax.com/cdn/shop/products/zumwax-endurance-marathon.jpg" alt="Endurance Marathon" loading="lazy"></td>
         <td><strong>Endurance Marathon</strong></td>
         <td>ZUMWax</td>
         <td>Endurance</td>
@@ -2427,11 +2429,11 @@
         <td class="snow-col">Compacte, Transformée, Fine fraîche, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Extrême durabilité pour longues distances. PFAS-free. 100g.</td>
       </tr>
       <tr data-brand="Solda">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/o/solda-hc1-orange.jpg" alt="HC1 Orange" loading="lazy"></td>
         <td><strong>HC1 Orange</strong></td>
         <td>Solda</td>
         <td>HC1 Hydrocarbon</td>
@@ -2442,11 +2444,11 @@
         <td class="snow-col">Transformée, Compacte, Mouillée</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Paraffine économique d&#x27;entraînement. Neige ancienne en transformation. Fondée en 1934 par Gino Solda. 60g.</td>
       </tr>
       <tr data-brand="Solda">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/o/solda-hc1-violet.jpg" alt="HC1 Violet" loading="lazy"></td>
         <td><strong>HC1 Violet</strong></td>
         <td>Solda</td>
         <td>HC1 Hydrocarbon</td>
@@ -2457,11 +2459,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Grain sec, Artificielle</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Le plus polyvalent de la gamme HC1. Fonctionne sur neige neuve et ancienne, humidité sèche à moyenne. 60g.</td>
       </tr>
       <tr data-brand="Solda">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/o/solda-hc1-green.jpg" alt="HC1 Green" loading="lazy"></td>
         <td><strong>HC1 Green</strong></td>
         <td>Solda</td>
         <td>HC1 Hydrocarbon</td>
@@ -2472,11 +2474,11 @@
         <td class="snow-col">Grain sec, Compacte glacée, Artificielle</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Base, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart dur pour neige &#x27;squeaky&#x27; froide. Haute durabilité. 60g.</td>
       </tr>
       <tr data-brand="Solda">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/o/solda-hc28.jpg" alt="HC28 Carbon" loading="lazy"></td>
         <td><strong>HC28 Carbon</strong></td>
         <td>Solda</td>
         <td>HC28</td>
@@ -2487,11 +2489,11 @@
         <td class="snow-col">Compacte sale, Transformée, Artificielle, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Additif, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Additif carbone pour renouveler bases graphite. Excellent sous-couche pour neige sale de printemps. 60g, 180g.</td>
       </tr>
       <tr data-brand="Solda">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/o/solda-superglide-yellow.jpg" alt="Superglide Yellow" loading="lazy"></td>
         <td><strong>Superglide Yellow</strong></td>
         <td>Solda</td>
         <td>Superglide New Era</td>
@@ -2502,11 +2504,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Gamme New Era avec H-Lubrix (lubrifiant industriel biodégradable allemand). Testée favorablement vs LF fluorés. 60g.</td>
       </tr>
       <tr data-brand="Solda">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/o/solda-superglide-red.jpg" alt="Superglide Red" loading="lazy"></td>
         <td><strong>Superglide Red</strong></td>
         <td>Solda</td>
         <td>Superglide New Era</td>
@@ -2517,11 +2519,11 @@
         <td class="snow-col">Compacte, Transformée, Fine fraîche, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Polyvalent New Era. Humidité &gt;50%. Testé dans le tunnel de Torsby (Norvège). 60g.</td>
       </tr>
       <tr data-brand="Solda">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/o/solda-superglide-green.jpg" alt="Superglide Green" loading="lazy"></td>
         <td><strong>Superglide Green</strong></td>
         <td>Solda</td>
         <td>Superglide New Era</td>
@@ -2532,11 +2534,11 @@
         <td class="snow-col">Grain sec, Compacte glacée, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">New Era grand froid. Base S30 recommandée dessous pour neige abrasive. 60g.</td>
       </tr>
       <tr data-brand="Solda">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/o/solda-superspeed-paste.jpg" alt="Superspeed Paste" loading="lazy"></td>
         <td><strong>Superspeed Paste</strong></td>
         <td>Solda</td>
         <td>Superglide New Era</td>
@@ -2547,11 +2549,11 @@
         <td class="snow-col">Compacte, Transformée, Mouillée, Neige tombante</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Version pâte de la gamme New Era. Application éponge, séchage 5-10min, polissage. Peut être repassée pour plus de durabilité.</td>
       </tr>
       <tr data-brand="Solda">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/o/solda-hl4-powder.jpg" alt="HL4 Powder Mid" loading="lazy"></td>
         <td><strong>HL4 Powder Mid</strong></td>
         <td>Solda</td>
         <td>HL Powder</td>
@@ -2562,11 +2564,11 @@
         <td class="snow-col">Compacte, Transformée, Fine fraîche</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Poudre FF à base végétale + hydrocarbone. Point de fusion bas (120°C) protège la semelle. Humidité &gt;40%. Granulométrie plus grosse que poudres fluorées.</td>
       </tr>
       <tr data-brand="HWK">
+        <td><img class="thumb" src="https://www.skiwax.tirol/wp-content/uploads/hwk-racing-wax.jpg" alt="Racing Wax (Fluor Free)" loading="lazy"></td>
         <td><strong>Racing Wax (Fluor Free)</strong></td>
         <td>HWK</td>
         <td>Racing</td>
@@ -2577,11 +2579,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Compacte, Compacte glacée, Transformée, Mouillée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Service wax FF de référence HWK. Même formule que Racing LF sans fluor. Exigences alpin + nordique. Fait main au Tirol. 180g, 900g.</td>
       </tr>
       <tr data-brand="HWK">
+        <td><img class="thumb" src="https://www.skiwax.tirol/wp-content/uploads/hwk-eco-allround.jpg" alt="Eco Allround Skiwax" loading="lazy"></td>
         <td><strong>Eco Allround Skiwax</strong></td>
         <td>HWK</td>
         <td>ECO Line</td>
@@ -2592,11 +2594,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Compacte, Compacte glacée, Transformée, Mouillée, Grain sec</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">100% substances naturelles biodégradables. Sans fluor. Alpin, nordique et tour. 180g.</td>
       </tr>
       <tr data-brand="HWK">
+        <td><img class="thumb" src="https://www.skiwax.tirol/wp-content/uploads/hwk-eco-liquo.jpg" alt="Eco Liquo Skiwax" loading="lazy"></td>
         <td><strong>Eco Liquo Skiwax</strong></td>
         <td>HWK</td>
         <td>ECO Line</td>
@@ -2607,11 +2609,11 @@
         <td class="snow-col">Neige lourde neuve, Artificielle, Neige tombante, Fine fraîche, Compacte, Compacte glacée, Transformée, Mouillée, Grain sec</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-yes">Éco</span></td>
         <td class="comment-col">Spray liquide éco biodégradable. Pulvériser, sécher, c&#x27;est parti. Sans fer. Alpin et nordique.</td>
       </tr>
       <tr data-brand="HWK">
+        <td><img class="thumb" src="https://www.skiwax.tirol/wp-content/uploads/hwk-hx-newsnow-cold.jpg" alt="HX Racewax Newsnow Cold" loading="lazy"></td>
         <td><strong>HX Racewax Newsnow Cold</strong></td>
         <td>HWK</td>
         <td>HX High X</td>
@@ -2622,11 +2624,11 @@
         <td class="snow-col">Fine fraîche, Neige tombante, Grain sec, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart course FF pour neige fraîche froide et sèche. Gamme HX compétition. 100g.</td>
       </tr>
       <tr data-brand="HWK">
+        <td><img class="thumb" src="https://www.skiwax.tirol/wp-content/uploads/hwk-hx-newsnow-warm.jpg" alt="HX Racewax Newsnow Warm" loading="lazy"></td>
         <td><strong>HX Racewax Newsnow Warm</strong></td>
         <td>HWK</td>
         <td>HX High X</td>
@@ -2637,11 +2639,11 @@
         <td class="snow-col">Neige tombante, Fine fraîche, Mouillée, Compacte</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart course FF pour neige fraîche conditions chaudes. 100g.</td>
       </tr>
       <tr data-brand="HWK">
+        <td><img class="thumb" src="https://www.skiwax.tirol/wp-content/uploads/hwk-hx-oldsnow-cold.jpg" alt="HX Racewax Oldsnow Cold" loading="lazy"></td>
         <td><strong>HX Racewax Oldsnow Cold</strong></td>
         <td>HWK</td>
         <td>HX High X</td>
@@ -2652,11 +2654,11 @@
         <td class="snow-col">Transformée, Compacte glacée, Artificielle, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Pour neige ancienne froide, agressive et artificielle. 100g.</td>
       </tr>
       <tr data-brand="HWK">
+        <td><img class="thumb" src="https://www.skiwax.tirol/wp-content/uploads/hwk-hx-oldsnow-warm.jpg" alt="HX Racewax Oldsnow Warm" loading="lazy"></td>
         <td><strong>HX Racewax Oldsnow Warm</strong></td>
         <td>HWK</td>
         <td>HX High X</td>
@@ -2667,11 +2669,11 @@
         <td class="snow-col">Transformée, Compacte sale, Mouillée, Grain humide</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Neige ancienne chaude et humide. 100g.</td>
       </tr>
       <tr data-brand="HWK">
+        <td><img class="thumb" src="https://www.skiwax.tirol/wp-content/uploads/hwk-uhx-liquo-warm.jpg" alt="UHX Liquo Spray Warm" loading="lazy"></td>
         <td><strong>UHX Liquo Spray Warm</strong></td>
         <td>HWK</td>
         <td>UHX Ultra High X</td>
@@ -2682,11 +2684,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Top absolu FF course de HWK. Gamme UHX World Cup. Spray 45ml. Neige mouillée.</td>
       </tr>
       <tr data-brand="HWK">
+        <td><img class="thumb" src="https://www.skiwax.tirol/wp-content/uploads/hwk-uhx-liquo-cold.jpg" alt="UHX Liquo Spray Cold" loading="lazy"></td>
         <td><strong>UHX Liquo Spray Cold</strong></td>
         <td>HWK</td>
         <td>UHX Ultra High X</td>
@@ -2697,11 +2699,11 @@
         <td class="snow-col">Grain sec, Artificielle, Compacte glacée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Top absolu FF course froid. Gamme UHX World Cup. Spray 45ml.</td>
       </tr>
       <tr data-brand="HWK">
+        <td><img class="thumb" src="https://www.skiwax.tirol/wp-content/uploads/hwk-speedmilk.jpg" alt="Speed Milk" loading="lazy"></td>
         <td><strong>Speed Milk</strong></td>
         <td>HWK</td>
         <td>Speed Milk</td>
@@ -2712,11 +2714,11 @@
         <td class="snow-col">Compacte, Transformée, Mouillée, Artificielle, Fine fraîche</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Innovation unique : fart liquide à base de céramique haute performance. Nouveau type de ski wax. Sans fluor.</td>
       </tr>
       <tr data-brand="SkiGo">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/k/skigo-ffc-yellow.jpg" alt="FFC Yellow (Fluor Free Competition)" loading="lazy"></td>
         <td><strong>FFC Yellow (Fluor Free Competition)</strong></td>
         <td>SkiGo</td>
         <td>FFC Competition</td>
@@ -2727,11 +2729,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Gamme compétition FF. Fondée par Christer Majbäck (médaillé olympique/WC). Neuve, ancienne, artificielle, sèche. 60g.</td>
       </tr>
       <tr data-brand="SkiGo">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/k/skigo-ffc-orange.jpg" alt="FFC Orange" loading="lazy"></td>
         <td><strong>FFC Orange</strong></td>
         <td>SkiGo</td>
         <td>FFC Competition</td>
@@ -2742,11 +2744,11 @@
         <td class="snow-col">Neige tombante, Fine fraîche, Transformée, Compacte</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Neige fraîche à ancienne. Humidité 0 à 100%. Glisse maintenue 70-100 km. Finir avec poudres/fluides. 60g.</td>
       </tr>
       <tr data-brand="SkiGo">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/k/skigo-ffc-red.jpg" alt="FFC Red" loading="lazy"></td>
         <td><strong>FFC Red</strong></td>
         <td>SkiGo</td>
         <td>FFC Competition</td>
@@ -2757,11 +2759,11 @@
         <td class="snow-col">Compacte, Fine fraîche, Transformée, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Neuve et ancienne. Marque la plus utilisée au niveau équipe nationale suédoise. 60g.</td>
       </tr>
       <tr data-brand="SkiGo">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/k/skigo-ffc-blue.jpg" alt="FFC Blue" loading="lazy"></td>
         <td><strong>FFC Blue</strong></td>
         <td>SkiGo</td>
         <td>FFC Competition</td>
@@ -2772,11 +2774,11 @@
         <td class="snow-col">Fine fraîche, Grain sec, Artificielle, Compacte</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Conditions froides, neige neuve. Développé en collaboration avec les meilleurs de l&#x27;industrie du ski. 60g.</td>
       </tr>
       <tr data-brand="SkiGo">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/k/skigo-ffc-green.jpg" alt="FFC Green" loading="lazy"></td>
         <td><strong>FFC Green</strong></td>
         <td>SkiGo</td>
         <td>FFC Competition</td>
@@ -2787,11 +2789,11 @@
         <td class="snow-col">Grain sec, Compacte glacée, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Grand froid. Clarté et simplicité de la gamme = débutants aux élites satisfaits. 60g.</td>
       </tr>
       <tr data-brand="SkiGo">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/k/skigo-fft-liquid.jpg" alt="FFT Liquid (Fluor Free Training)" loading="lazy"></td>
         <td><strong>FFT Liquid (Fluor Free Training)</strong></td>
         <td>SkiGo</td>
         <td>FFT Training</td>
@@ -2802,11 +2804,11 @@
         <td class="snow-col">Compacte, Transformée, Fine fraîche, Mouillée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Liquide entraînement FF. Glisse proche du niveau compétition. Application facile sans fer.</td>
       </tr>
       <tr data-brand="SkiGo">
+        <td><img class="thumb" src="https://www.skiwax.eu/media/catalog/product/cache/1/image/500x/9df78eab33525d08d6e5fb8d27136e95/s/k/skigo-ffa-universal.jpg" alt="FFA Universal (Fluor Free Active)" loading="lazy"></td>
         <td><strong>FFA Universal (Fluor Free Active)</strong></td>
         <td>SkiGo</td>
         <td>FFA Active</td>
@@ -2817,11 +2819,11 @@
         <td class="snow-col">Compacte, Transformée, Fine fraîche, Mouillée, Artificielle</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Gamme loisir FF. Paraffine durable avec bonnes propriétés de glisse et d&#x27;entretien. Made in Sweden.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2024/11/farts-ski-loisir.webp" alt="CH Medium" loading="lazy"></td>
         <td><strong>CH Medium</strong></td>
         <td>DragonSki</td>
         <td>CH Entretien</td>
@@ -2832,11 +2834,11 @@
         <td class="snow-col">Fine fraîche, Compacte, Artificielle, Neige tombante</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Base, Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Fart d&#x27;entretien polyvalent. Protection anti-oxydation de la semelle. Gamme CH pour le ski loisir quotidien. Made in France, Annecy.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2024/11/farts-ski-loisir.webp" alt="CH Cold" loading="lazy"></td>
         <td><strong>CH Cold</strong></td>
         <td>DragonSki</td>
         <td>CH Entretien</td>
@@ -2847,11 +2849,11 @@
         <td class="snow-col">Grain sec, Compacte glacée, Artificielle</td>
         <td><span class="badge lvl-beg">Débutant</span></td>
         <td>Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Entretien par temps froid et sec. Neige froide fine et abrasive. Seul ou en base avant LSi/HSi.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2025/10/LSW-400x400.png" alt="LSi Warm Jaune" loading="lazy"></td>
         <td><strong>LSi Warm Jaune</strong></td>
         <td>DragonSki</td>
         <td>LSi</td>
@@ -2862,11 +2864,11 @@
         <td class="snow-col">Mouillée, Transformée, Grain humide</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Neige molle et transformée. Mi-février à fin de saison. Technologie SiliciumTech+ sans fluor. Bloc et liquide disponibles.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2020/09/LSLM-400x400.png" alt="LSi Medium Rouge" loading="lazy"></td>
         <td><strong>LSi Medium Rouge</strong></td>
         <td>DragonSki</td>
         <td>LSi</td>
@@ -2877,11 +2879,11 @@
         <td class="snow-col">Fine fraîche, Compacte, Neige tombante, Transformée</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour, Universel</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Le ROUGE polyvalent et UNIVERSEL DragonSki. Fart le plus recommandé en cas de doute. Mi-janvier à fin de saison.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2021/10/LSLC-400x400.png" alt="LSi Cold Bleu" loading="lazy"></td>
         <td><strong>LSi Cold Bleu</strong></td>
         <td>DragonSki</td>
         <td>LSi</td>
@@ -2892,11 +2894,11 @@
         <td class="snow-col">Artificielle, Compacte glacée, Grain sec</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Neige artificielle, froide et dure. Novembre à fin janvier. SiliciumTech+ pour HR &lt; 65%.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2021/10/LSLW-400x400.png" alt="LSi Warm Liquide" loading="lazy"></td>
         <td><strong>LSi Warm Liquide</strong></td>
         <td>DragonSki</td>
         <td>LSi</td>
@@ -2907,11 +2909,11 @@
         <td class="snow-col">Mouillée, Transformée, Grain humide</td>
         <td><span class="badge lvl-spo">Sport</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Liquide sans fer, solvant non nocif. Application au chiffon + liège. Sèche rapidement même à basse température. 100ml.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2024/11/HSLW-400x400.png" alt="HSi Warm Liquide" loading="lazy"></td>
         <td><strong>HSi Warm Liquide</strong></td>
         <td>DragonSki</td>
         <td>HSi Performance</td>
@@ -2922,11 +2924,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Gamme compétition hautement enrichie en SiliciumTech+ (zéro fluor). Conçue pour HR &gt; 70%. Glisse rapide et stable. 100ml.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2024/11/HSLM-400x400.png" alt="HSi Medium Liquide" loading="lazy"></td>
         <td><strong>HSi Medium Liquide</strong></td>
         <td>DragonSki</td>
         <td>HSi Performance</td>
@@ -2937,11 +2939,11 @@
         <td class="snow-col">Fine fraîche, Compacte, Transformée, Neige tombante</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Performance médium. SiliciumTech+ haute charge. Développé par Alexandre Nappa (technicien JO Turin, Vancouver, Sochi). 100ml.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2024/11/HSLC-400x400.png" alt="HSi Cold Liquide" loading="lazy"></td>
         <td><strong>HSi Cold Liquide</strong></td>
         <td>DragonSki</td>
         <td>HSi Performance</td>
@@ -2952,11 +2954,11 @@
         <td class="snow-col">Artificielle, Compacte glacée, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale, Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Froid et neige sèche abrasive. Forte charge SiliciumTech+ pour neige très humide froide (HR &gt; 70%). 100ml.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2024/11/fart-performance.webp" alt="GT Warm" loading="lazy"></td>
         <td><strong>GT Warm</strong></td>
         <td>DragonSki</td>
         <td>GT</td>
@@ -2967,11 +2969,11 @@
         <td class="snow-col">Mouillée, Compacte sale, Grain humide, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Résiste mécaniquement à toutes neiges abrasives propres ou sales. Haut pouvoir hydrophobe. Milieu très humide-mouillé ou sec et abrasif.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2024/11/fart-performance.webp" alt="GT SuperMED" loading="lazy"></td>
         <td><strong>GT SuperMED</strong></td>
         <td>DragonSki</td>
         <td>GT</td>
@@ -2982,11 +2984,11 @@
         <td class="snow-col">Compacte glacée, Artificielle, Compacte sale, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Fart du jour</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Grain fin abrasif froid. Résistance mécanique extrême sur neige sale et abrasive. Haut pouvoir hydrophobe même en conditions sèches.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2024/11/fart-performance.webp" alt="BP Base Préparation" loading="lazy"></td>
         <td><strong>BP Base Préparation</strong></td>
         <td>DragonSki</td>
         <td>BP</td>
@@ -2997,11 +2999,11 @@
         <td class="snow-col">Compacte sale, Grain humide, Grain sec, Artificielle</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Préparation base, Base</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Sous-couche endurance enrichie en bore. Résistance mécanique extrême pour marathons, ultras et neige abrasive. Famille LSi. Version BP Extreme Marathon comme base vitesse alpin.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2024/11/fart-performance.webp" alt="Cera S Warm" loading="lazy"></td>
         <td><strong>Cera S Warm</strong></td>
         <td>DragonSki</td>
         <td>Cera S</td>
@@ -3012,11 +3014,11 @@
         <td class="snow-col">Mouillée, Grain humide, Transformée</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Finition 100% Silicium tech+ hydrogéné, zéro fluor/PFOA/PFOS. Application au liège/feutrine sans fer. Seul en sprint ou sur base HSi/BP pour marathon.</td>
       </tr>
       <tr data-brand="DragonSki">
+        <td><img class="thumb" src="https://dragonski.com/wp-content/uploads/2024/11/fart-performance.webp" alt="Cera S SuperMED" loading="lazy"></td>
         <td><strong>Cera S SuperMED</strong></td>
         <td>DragonSki</td>
         <td>Cera S</td>
@@ -3027,7 +3029,6 @@
         <td class="snow-col">Compacte glacée, Artificielle, Grain sec</td>
         <td><span class="badge lvl-exp">Expert</span></td>
         <td>Couche finale</td>
-        <td><span class="badge badge-yes">FIS</span></td>
         <td><span class="badge badge-no">—</span></td>
         <td class="comment-col">Finition froid 100% Silicium tech+. Plus on frotte, plus la cera adhère. Plage -12/+10°C avec HR 50-90%. ~10 fartages par bloc.</td>
       </tr>

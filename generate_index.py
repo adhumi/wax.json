@@ -114,7 +114,11 @@ def generate_html(data):
         if p.get("comment"):
             comment_fr = p["comment"].get("fr_FR", "") or ""
 
+        img_url = html.escape(p.get('image_url', ''))
+        img_tag = f'<img class="thumb" src="{img_url}" alt="{fmt(p["name"])}" loading="lazy">' if img_url else '—'
+
         row = f"""      <tr data-brand="{html.escape(p['brand'])}">
+        <td>{img_tag}</td>
         <td><strong>{fmt(p['name'])}</strong></td>
         <td>{fmt(p['brand'])}</td>
         <td>{fmt(p.get('product_line'))}</td>
@@ -125,7 +129,6 @@ def generate_html(data):
         <td class="snow-col">{fmt_list(p.get('snow_type', []), 'snow_type')}</td>
         <td>{badge_level(p['level'])}</td>
         <td>{fmt_list(p.get('role', []), 'role')}</td>
-        <td>{badge_bool(p['fis_compliant'], 'FIS', 'Non-FIS')}</td>
         <td>{badge_bool(p['eco'], 'Éco', '—')}</td>
         <td class="comment-col">{html.escape(comment_fr)}</td>
       </tr>"""
@@ -222,6 +225,7 @@ def generate_html(data):
       vertical-align: top;
     }}
     tr:hover td {{ background: #f1f5ff; }}
+    .thumb {{ width: 40px; height: 40px; object-fit: contain; border-radius: 4px; background: #f8f9fa; }}
     .snow-col {{ max-width: 180px; }}
     .comment-col {{ max-width: 260px; font-size: .8rem; color: var(--muted); }}
     .badge {{
@@ -264,6 +268,7 @@ def generate_html(data):
     <table id="waxTable">
       <thead>
         <tr>
+          <th></th>
           <th>Nom</th>
           <th>Marque</th>
           <th>Gamme</th>
@@ -274,7 +279,6 @@ def generate_html(data):
           <th>Neige</th>
           <th>Niveau</th>
           <th>Rôle</th>
-          <th>FIS</th>
           <th>Éco</th>
           <th>Commentaire</th>
         </tr>
