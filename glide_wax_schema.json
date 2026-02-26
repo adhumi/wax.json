@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arnuva.app/schemas/glide_wax_v7_2.schema.json",
+  "title": "Glide Wax Catalog",
+  "description": "Catalog of fluorine-free glide waxes for cross-country skiing",
+  "type": "object",
+  "required": ["metadata", "products"],
+  "additionalProperties": false,
+  "properties": {
+    "metadata": { "$ref": "#/$defs/Metadata" },
+    "products": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Product" },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "Locale": {
+      "type": "string",
+      "pattern": "^[a-z]{2}_[A-Z]{2}$",
+      "description": "BCP-47-like locale tag (e.g. fr_FR, en_US)"
+    },
+    "LocalizedString": {
+      "type": "object",
+      "description": "Localized text keyed by locale",
+      "propertyNames": { "$ref": "#/$defs/Locale" },
+      "additionalProperties": {
+        "type": ["string", "null"]
+      },
+      "required": ["fr_FR"],
+      "minProperties": 1
+    },
+    "SnowType": {
+      "type": "string",
+      "enum": [
+        "heavy_new",
+        "artificial",
+        "fresh_falling",
+        "fine_fresh",
+        "mixed_new_dirty_base",
+        "compact",
+        "compact_glazed",
+        "compact_dirty",
+        "transformed",
+        "wet",
+        "dry_grain",
+        "wet_grain"
+      ]
+    },
+    "Level": {
+      "type": "string",
+      "enum": ["beginner", "sport", "expert"]
+    },
+    "FormatType": {
+      "type": "string",
+      "enum": [
+        "block_hot",
+        "block_rub_roto",
+        "block_rub",
+        "liquid",
+        "liquid_spray",
+        "powder_hot",
+        "powder",
+        "paste_rub"
+      ]
+    },
+    "Role": {
+      "type": "string",
+      "enum": [
+        "base_prep",
+        "base",
+        "day_wax",
+        "top_coat",
+        "universal",
+        "cleaner",
+        "additive"
+      ]
+    },
+    "HumiditySource": {
+      "type": "string",
+      "enum": ["manufacturer", "color_inference", "community"]
+    },
+    "Metadata": {
+      "type": "object",
+      "required": [
+        "title",
+        "compilation_date",
+        "version",
+        "enum_snow_type",
+        "enum_level",
+        "enum_format",
+        "enum_role",
+        "enum_humidity_source",
+        "sources"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string" },
+        "compilation_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "version": { "type": "string" },
+        "note": { "type": "string" },
+        "enum_snow_type": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/SnowType" },
+          "uniqueItems": true
+        },
+        "enum_level": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Level" },
+          "uniqueItems": true
+        },
+        "enum_format": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/FormatType" },
+          "uniqueItems": true
+        },
+        "enum_role": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Role" },
+          "uniqueItems": true
+        },
+        "enum_humidity_source": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/HumiditySource" },
+          "uniqueItems": true
+        },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "images_note": { "type": "string" },
+        "humidity_note": { "type": "string" },
+        "humidity_sources": {
+          "type": "object",
+          "description": "Per-brand humidity data source documentation",
+          "additionalProperties": { "type": "string" }
+        }
+      }
+    },
+    "Product": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "brand",
+        "product_line",
+        "format_type",
+        "temp_min_c",
+        "temp_max_c",
+        "iron_temp_c",
+        "snow_type",
+        "level",
+        "fluorinated",
+        "fis_compliant",
+        "comment",
+        "image_url",
+        "role",
+        "humidity_min",
+        "humidity_max",
+        "eco",
+        "durability_km",
+        "product_url",
+        "date_added",
+        "date_updated",
+        "active",
+        "humidity_source"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$",
+          "description": "Unique slug identifier (lowercase, hyphens)"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "brand": {
+          "type": "string",
+          "minLength": 1
+        },
+        "product_line": {
+          "type": "string",
+          "minLength": 1
+        },
+        "format_type": { "$ref": "#/$defs/FormatType" },
+        "temp_min_c": {
+          "type": ["integer", "null"],
+          "minimum": -50,
+          "maximum": 10,
+          "description": "Minimum snow/air temperature in °C"
+        },
+        "temp_max_c": {
+          "type": ["integer", "null"],
+          "minimum": -40,
+          "maximum": 25,
+          "description": "Maximum snow/air temperature in °C"
+        },
+        "iron_temp_c": {
+          "type": ["integer", "null"],
+          "minimum": 80,
+          "maximum": 200,
+          "description": "Recommended iron temperature in °C. null = no-iron product"
+        },
+        "snow_type": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/SnowType" },
+          "uniqueItems": true,
+          "description": "Applicable snow types. May be empty for base prep or cleaning waxes"
+        },
+        "level": { "$ref": "#/$defs/Level" },
+        "fluorinated": {
+          "type": "boolean",
+          "description": "Contains fluorine compounds"
+        },
+        "fis_compliant": {
+          "type": "boolean",
+          "description": "Compliant with FIS fluorine ban regulations"
+        },
+        "comment": { "$ref": "#/$defs/LocalizedString" },
+        "image_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "role": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Role" },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "humidity_min": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Minimum relative humidity percentage"
+        },
+        "humidity_max": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Maximum relative humidity percentage"
+        },
+        "eco": {
+          "type": "boolean",
+          "description": "Eco-friendly / biodegradable product"
+        },
+        "durability_km": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "Estimated durability in kilometers"
+        },
+        "product_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "date_added": {
+          "type": "string",
+          "format": "date"
+        },
+        "date_updated": {
+          "type": "string",
+          "format": "date"
+        },
+        "active": {
+          "type": "boolean"
+        },
+        "humidity_source": {
+          "oneOf": [
+            { "$ref": "#/$defs/HumiditySource" },
+            { "type": "null" }
+          ],
+          "description": "Source of humidity data. null = not available"
+        }
+      }
+    }
+  }
+}
