@@ -1,0 +1,63 @@
+name: Validate JSON & Build HTML
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "glide_wax.json"
+      - "glide_wax_schema.json"
+      - "generate_index.py"
+  pull_request:
+    paths:
+      - "glide_wax.json"
+      - "glide_wax_schema.json"
+      - "generate_index.py"
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    name: Validate JSON against schema
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install jsonschema
+        run: pip install check-jsonschema
+
+      - name: Validate glide_wax.json
+        run: check-jsonschema --schemafile glide_wax_schema.json glide_wax.json
+
+  build:
+    name: Generate index.html
+    needs: validate
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate HTML
+        run: python generate_index.py
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet index.html && echo "changed=false" >> "$GITHUB_OUTPUT" || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push updated index.html
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Update index.html from glide_wax.json"
+          git push
